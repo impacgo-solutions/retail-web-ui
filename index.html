@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    // Auto-detect base href for GitHub Pages subfolder deployments or local root
+    (function () {
+      var baseHref = '/retail-web-ui/';
+      if (baseHref === '/retail-web-ui/' || baseHref === '/') {
+        var path = window.location.pathname;
+        var segments = path.split('/').filter(Boolean);
+        // If hosted on GitHub Pages subfolder (e.g. https://<user>.github.io/<repo>/)
+        if (window.location.hostname.endsWith('github.io') && segments.length > 0) {
+          baseHref = '/' + segments[0] + '/';
+        } else {
+          baseHref = '/';
+        }
+      }
+      var base = document.createElement('base');
+      base.href = baseHref;
+      document.head.appendChild(base);
+    })();
+  </script>
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="IMPACGO Retail — POS & Store Operations System">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="IMPACGO Retail">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>IMPACGO Retail — POS & Store Management System</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- This is a touchscreen POS app. Without this, mobile/touchscreen
+       browsers flash their default gray "tap highlight" overlay over
+       whatever was just tapped — never on a mouse click, only on touch —
+       which is exactly the "blinks on touch, not on cursor click" a cashier
+       would see on every single item tap on a real register's touchscreen. -->
+  <style>
+    html, body, * {
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+    }
+    html, body {
+      touch-action: manipulation;
+    }
+  </style>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
