@@ -1,164 +1,218 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,H,C={
-c5n(d){return new C.x0(null)},
-vb:function vb(d,e,f,g,h){var _=this
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,C,B,Q,R,S,T,A={
+c8E(d){return new A.BP(d,null)},
+yE:function yE(d,e,f,g,h,i){var _=this
 _.a=d
 _.b=e
 _.c=f
 _.d=g
-_.e=h},
-x0:function x0(d){this.a=d},
-afD:function afD(){this.d=$
-this.c=this.a=null},
-bcc:function bcc(d){this.a=d},
-bc7:function bc7(){},
-bc8:function bc8(){},
-bc9:function bc9(d,e){this.a=d
+_.e=h
+_.f=i},
+BP:function BP(d,e){this.e=d
+this.a=e},
+aKr:function aKr(d){this.a=d},
+aKs:function aKs(d){this.a=d},
+aKt:function aKt(){},
+aKE:function aKE(){},
+aKI:function aKI(){},
+aKJ:function aKJ(){},
+aKK:function aKK(){},
+aKL:function aKL(d,e){this.a=d
 this.b=e},
-bca:function bca(d){this.a=d},
-bcb:function bcb(){},
-bc6:function bc6(d,e,f){this.a=d
+aKM:function aKM(d){this.a=d},
+aKN:function aKN(d,e){this.a=d
+this.b=e},
+aKA:function aKA(){},
+aKz:function aKz(d,e,f){this.a=d
 this.b=e
-this.c=f}},E,F,I,D,K,L,G,M
+this.c=f},
+aKO:function aKO(){},
+aKu:function aKu(){},
+aKv:function aKv(){},
+aKw:function aKw(){},
+aKx:function aKx(){},
+aKy:function aKy(){},
+aKH:function aKH(){},
+aKB:function aKB(){},
+aKC:function aKC(){},
+aKD:function aKD(){},
+aKF:function aKF(){},
+aKG:function aKG(){}},H,D,L,M,I,E,U,N,O,F,K,G,P,V
 J=c[1]
-A=c[0]
+C=c[0]
 B=c[2]
-H=c[77]
-C=a.updateHolder(c[28],C)
-E=c[125]
-F=c[99]
-I=c[91]
-D=c[94]
-K=c[92]
-L=c[72]
-G=c[104]
-M=c[105]
-C.vb.prototype={}
-C.x0.prototype={
-W(){return new C.afD()}}
-C.afD.prototype={
-ap(){this.aB()
-$.aq.rx$.push(new C.bcc(this))},
-I(d){var x,w,v,u=this.gO(),t=u.T($.JZ(),y.e),s=J.bj(u.T($.lC(),y.p),new C.bc7()),r=A.N(s,s.$ti.i("A.E")),q=new C.bc9(B.e.bu(r,0,new C.bc8()),r)
-s=y.u
-x=A.a([],s)
-for(w=J.ab(t);w.p();){v=w.gE(w)
-x.push(this.aAy(d,u,v,q.$1(v.a)))}return A.S(A.a([E.UQ,L.t0(3,x,!1)],s),B.H,null,B.r,B.z)},
-aAy(d,e,f,g){var x,w,v=null,u="Internal",t=$.d,s=t?F.c_:F.c2,r=t?B.bj:B.bp,q=t?D.fY:D.hx,p=t?D.f1:D.fr,o=t?G.iF:G.k9
-t=t?B.cT:B.d3
-x=f.a
-w=A.av(["Cash",new C.vb("cash",s,B.aK,"Drawer-managed with float & denominations","No fee"),"Card",new C.vb("card",r,B.a6,"Counter-top terminal \xb7 Visa/MC/RuPay","MDR 0.9%"),"UPI",new C.vb("upi",q,B.fq,"Dynamic QR per bill","No MDR (P2M)"),"Wallet",new C.vb("wallet",p,B.eI,"IMPACGO prepaid store credit",u),"Gift Card",new C.vb("gift",o,M.k7,"Store-issued prepaid balance",u),"Split",new C.vb("split",t,B.cp,"Divide one bill across 2+ other tenders","No fee")],y.w,y.a).h(0,x)
-t=y.u
-o=A.a([],t)
-s=w==null
-r=!s
-if(r){q=w.b
-p=A.at(9)
-o.push(A.a5(B.ag,A.bU(w.a,w.c,17),B.A,v,v,new A.a6(q,v,v,p,v,v,B.J),v,36,v,v,v,v,v,36))}o.push(B.aM)
-o.push(A.aS(A.h(x,v,v,v,v,A.p(v,v,1.45,v,14,B.p).eB(15,B.ac),v,v),1))
-q=f.b
-p=q?"Enabled":"Disabled"
-o.push(new I.bX(p,q?D.cg:D.dG,v))
-p=A.a([A.ae(o,B.H,B.r,B.z,0)],t)
-if(r){r=w.d
-B.e.A(p,A.a([B.b7,A.h(r,v,v,v,v,A.p($.d?B.Q:B.P,v,v,v,13,B.p).aW(12),v,v)],t))}p.push(B.aX)
-p.push(this.a7_("Share of today's sales",""+g+"%"))
-p.push(B.cQ)
-t=s?v:w.e
-p.push(this.a7_("Cost",t==null?"\u2014":t))
-p.push(B.aX)
-p.push(A.a0(v,!1,v,v,v,A.bU("gear",$.d?B.y:B.w,14),v,"Configure",new C.bc6(f,e,d),B.aQ,B.at))
-return H.lF(A.S(p,B.H,v,B.r,B.M),!0)},
-a7_(d,e){var x=null
-return A.ae(A.a([A.h(d,x,x,x,x,A.p($.d?B.Q:B.P,x,x,x,13,B.p).aW(12.5),x,x),A.h(e,x,x,x,x,A.p(x,x,1.45,x,14,B.p).eB(12.5,B.ac),x,x)],y.u),B.E,B.bM,B.z,0)}}
-var z=a.updateTypes([])
-C.bcc.prototype={
-$1(d){return this.agL(d)},
-agL(d){var x=0,w=A.v(y.v),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k
-var $async$$1=A.q(function(e,f){if(e===1){t.push(f)
-x=u}for(;;)switch(x){case 0:p=s.a
-o=p.gO()
-n=o.m(0,$.af(),y.l)
-m=n==null?null:n.y
-l=m==null?"":m
-if(J.W(l)===0){x=1
-break}u=4
-x=7
-return A.l(o.m(0,$.JZ().gJ(),y.E).bc(l),$async$$1)
-case 7:u=2
-x=6
-break
-case 4:u=3
-k=t.pop()
-o=A.T(k)
-if(o instanceof A.aC){r=o
-p=p.c
-if(p==null){x=1
-break}A.M(p,r.a,null)}else throw k
-x=6
-break
-case 3:x=2
-break
-case 6:case 1:return A.t(v,w)
-case 2:return A.r(t.at(-1),w)}})
-return A.u($async$$1,w)},
-$S:28}
-C.bc7.prototype={
-$1(d){return B.m.bb(d.gdW(d),A.eK())||B.m.q(d.gdW(d),"now")},
-$S:35}
-C.bc8.prototype={
+Q=c[117]
+R=c[52]
+S=c[58]
+T=c[92]
+A=a.updateHolder(c[24],A)
+H=c[175]
+D=c[90]
+L=c[105]
+M=c[89]
+I=c[102]
+E=c[100]
+U=c[74]
+N=c[54]
+O=c[75]
+F=c[41]
+K=c[83]
+G=c[113]
+P=c[114]
+V=c[115]
+A.yE.prototype={}
+A.BP.prototype={
+ki(b2,b3){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3=null,a4="Nothing matches these filters. Clear the search or add a new record.",a5={},a6=b3.T($.cC(),y.B),a7=b3.T($.ez(),y.j),a8=b3.T($.lH(),y.J),a9=b3.T($.lG(),y.c),b0=b3.T($.ed(),y.l),b1=b3.T($.oT(),y.N)
+a5.a=null
+if(b1!=="All Stores")for(x=J.aa(a6);x.p();){w=x.gE(x)
+if(w.gb4(w)+" \u2014 "+w.geB(w)===b1||w.gb4(w)===b1||w.gaf(w)===b1){a5.a=w
+break}}if(a5.a==null)v=a8
+else{x=J.bk(a8,new A.aKr(a5))
+v=C.N(x,x.$ti.i("C.E"))}if(a5.a==null)u=a9
+else{x=J.bk(a9,new A.aKs(a5))
+u=C.N(x,x.$ti.i("C.E"))}x=J.bZ(u)
+t=x.cB(u,new A.aKt()).bu(0,0,new A.aKE())
+s=x.cB(u,new A.aKI()).gt(0)
+r=s>0?B.q.ar(t/s):0
+J.bk(v,new A.aKJ()).gt(0)
+q=J.bk(a7,new A.aKK()).gt(0)
+x=$.d?B.bi:B.bn
+w=a5.a==null?""+J.U(a6):"1"
+p=a5.a
+p=p==null?"Active stores in network":"Selected store ("+p.gb4(p)+")"
+o=$.d?I.bX:I.c0
+n=C.J(t)
+m=a5.a
+m=m==null?"Network sales today":m.gb4(m)+" sales today"
+l=$.d
+k=l?B.bi:B.bn
+l=l?E.f1:E.fs
+j=C.J(r)
+i=$.d?E.fY:E.hx
+h=U.mq(J.U(b0))
+g=$.d
+f=g?B.dZ:B.ee
+e=q>0?"Action needed":a3
+d=[new C.vl([x,B.a6,"store",p,null,!0,w]),new C.vl([o,B.aK,"cart",m,null,!0,n]),new C.vl([k,B.a6,"file","Bills settled today",null,!0,""+s]),new C.vl([l,B.eI,"bars","Average basket value",null,!0,j]),new C.vl([i,B.fr,"users","Total loyalty members",null,!0,h]),new C.vl([f,B.aI,"alert","Low-stock alerts",e,!1,""+q])]
+x=g?B.bi:B.bn
+w=g?I.bX:I.c0
+p=g?B.cO:B.cX
+o=g?E.fY:E.hx
+n=g?P.iG:P.kb
+m=g?E.f1:E.fs
+a0=[new A.yE("store",x,B.a6,"Stores & Network","sa_stores",G.H8),new A.yE("box",w,B.aK,"On Hand Inventory","sa_stock_items",G.H5),new A.yE("truck",p,B.ci,"Transfers & Requests","sa_transfers",G.G9),new A.yE("cart",o,B.fr,"Point of Sale","pos",H.au7),new A.yE("tag",n,V.k9,"Promotions & Loyalty","coupons",H.aTD),new A.yE("file",m,B.eI,"Reports & Analytics","sa_reports",G.Gh)]
+x=a5.a
+if(x==null)x="Network-wide workspace across all stores and central inventory \xb7 "+F.bMv()
+else{x=x.gb4(x)
+w=a5.a
+w="Filtered workspace for "+x+" ("+w.geB(w)+") \xb7 "+F.bMv()
+x=w}w=y.p
+p=C.a([F.bSb(N.bWT(),N.bWU()),C.Y(a3,!1,a3,a3,a3,G.xH,a3,"Create manager",new A.aKL(b2,b3),B.M,B.ah),C.Y(a3,!1,a3,a3,a3,Q.qU,a3,"Open POS billing",new A.aKM(this),B.M,B.ah)],w)
+o=C.a([],w)
+for(a1=0;a1<6;++a1){n=d[a1].a
+o.push(new R.DR(new C.cE(n[2],18,n[1],a3),n[0],n[6],n[3],n[4],n[5],!1,a3))}o=O.t4(6,o,!1)
+n=C.a([],w)
+for(m=a0.length,a1=0;a1<m;++a1){a2=a0[a1]
+n.push(new F.DP(new C.cE(a2.a,18,a2.c,a3),a2.b,a2.d,a2.f,new A.aKN(this,a2),a3))}m=y.b
+l=y.V
+return C.Q(C.a([new F.KD("Super Admin Dashboard",x,p,a3),o,B.e6,O.t4(3,n,!1),B.dQ,C.f("Latest network bills",a3,a3,a3,a3,a3,C.o(a3,a3,a3,a3,16,B.R),a3,a3),B.aW,D.eo(!1,C.a([new D.K("BILL NO.",new A.aKO(),!1,a3,0,a3,m),new D.K("STORE",new A.aKu(),!1,a3,0,a3,m),new D.K("DATE",new A.aKv(),!1,a3,0,a3,m),new D.K("NET AMOUNT",new A.aKw(),!0,a3,0,a3,m),new D.K("PAID BY",new A.aKx(),!1,a3,0,a3,m),new D.K("STATUS",new A.aKy(),!1,a3,0,a3,m)],y.T),a3,a4,"latest-network-bills",L.fc,!1,a3,a3,a3,new A.aKz(this,b2,b3),a3,a3,5,a3,u,new A.aKA(),B.bb,!1,!0,!0,a3,y.u),B.dQ,C.f("Recent stock requests",a3,a3,a3,a3,a3,C.o(a3,a3,a3,a3,16,B.R),a3,a3),B.aW,D.eo(!1,C.a([new D.K("STORE",new A.aKB(),!1,a3,0,a3,l),new D.K("ITEM",new A.aKC(),!1,a3,0,a3,l),new D.K("QTY",new A.aKD(),!0,a3,0,a3,l),new D.K("RAISED BY",new A.aKF(),!1,a3,0,a3,l),new D.K("STATUS",new A.aKG(),!1,a3,0,a3,l)],y.h),a3,a4,"recent-requests",L.fc,!1,a3,a3,a3,a3,a3,a3,5,a3,v,new A.aKH(),B.bb,!1,!0,!0,a3,y.Z)],w),B.E,a3,B.r,B.z)}}
+var z=a.updateTypes(["eG(bw)","bL(bw)","eG(dc)","bL(dc)"])
+A.aKr.prototype={
+$1(d){var x=d.c,w=this.a,v=w.a,u=!0
+if(!B.m.q(x,v.gb4(v))){v=w.a
+if(!B.m.q(x,v.geB(v))){w=w.a
+w=x===w.gaf(w)
+x=w}else x=u}else x=u
+return x},
+$S:98}
+A.aKs.prototype={
+$1(d){var x=d.giQ(d),w=this.a,v=w.a
+if(x!==v.gaf(v)){x=d.giQ(d)
+w=w.a
+w=x===w.gb4(w)
+x=w}else x=!0
+return x},
+$S:38}
+A.aKt.prototype={
+$1(d){return B.m.b9(d.gdX(d),C.eL())||B.m.q(d.gdX(d),"now")},
+$S:38}
+A.aKE.prototype={
 $2(d,e){return d+e.gh8()},
-$S:49}
-C.bc9.prototype={
-$1(d){var x,w=this.a
-if(w<=0)return 0
-x=this.b
-return B.q.aq(new A.ay(x,new C.bca(d),A.ai(x).i("ay<1>")).bu(0,0,new C.bcb())/w*100)},
-$S:200}
-C.bca.prototype={
-$1(d){return B.m.q(d.gfB(d).toLowerCase(),this.a.toLowerCase())},
-$S:35}
-C.bcb.prototype={
-$2(d,e){return d+e.gh8()},
-$S:49}
-C.bc6.prototype={
-$0(){var x=0,w=A.v(y.v),v=1,u=[],t=this,s,r,q,p,o,n,m,l,k
-var $async$$0=A.q(function(d,e){if(d===1){u.push(e)
-x=v}for(;;)switch(x){case 0:q=t.a
-p=q.b
-o=t.b
-n=o.m(0,$.af(),y.l)
-m=n==null?null:n.y
-l=m==null?"":m
-v=3
-n=q.a
-x=6
-return A.l(o.m(0,$.JZ().gJ(),y.E).L_(l,n),$async$$0)
-case 6:o=t.c
-if(o.e!=null)A.M(o,p?n+" removed from checkout":n+" enabled at checkout",null)
-v=1
-x=5
-break
-case 3:v=2
-k=u.pop()
-o=A.T(k)
-if(o instanceof A.aC){s=o
-o=t.c
-if(o.e!=null)A.M(o,"Couldn't update "+q.a+": "+s.a,null)}else throw k
-x=5
-break
-case 2:x=1
-break
-case 5:return A.t(null,w)
-case 1:return A.r(u.at(-1),w)}})
-return A.u($async$$0,w)},
-$S:3};(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(C.vb,A.K)
-x(C.x0,A.eh)
-x(C.afD,A.e9)
-w(A.cm,[C.bcc,C.bc7,C.bc9,C.bca])
-w(A.dB,[C.bc8,C.bcb])
-x(C.bc6,A.d2)})()
-A.cy(b.typeUniverse,JSON.parse('{"x0":{"P":[],"e":[]},"afD":{"ad":["x0"]}}'))
-var y={u:A.G("m<e>"),e:A.G("j<hC>"),p:A.G("j<bu>"),E:A.G("pz"),w:A.G("c"),a:A.G("vb"),l:A.G("ci?"),v:A.G("~")};(function constants(){E.UQ=new K.eg("Payment Methods","Tenders accepted at every counter, with today's mix",B.bb,null)})()};
-(a=>{a["VUv09zg1ojTgzcHESVRv8HF4JvM="]=a.current})($__dart_deferred_initializers__);
+$S:53}
+A.aKI.prototype={
+$1(d){return B.m.b9(d.gdX(d),C.eL())||B.m.q(d.gdX(d),"now")},
+$S:38}
+A.aKJ.prototype={
+$1(d){return d.y==="Pending Approval"},
+$S:98}
+A.aKK.prototype={
+$1(d){return d.gaI(0)!=="In Stock"},
+$S:80}
+A.aKL.prototype={
+$0(){return F.bMX(this.a,this.b,null,B.cn)},
+$S:0}
+A.aKM.prototype={
+$0(){return this.a.e.$1("pos")},
+$S:0}
+A.aKN.prototype={
+$0(){return this.a.e.$1(this.b.e)},
+$S:0}
+A.aKA.prototype={
+$1(d){return C.a([d.ghc(),d.gjB(),d.gfB(d),d.giQ(d)],y.s)},
+$S:161}
+A.aKz.prototype={
+$1(d){return S.anM(this.b,this.c,d,this.a.e)},
+$S:162}
+A.aKO.prototype={
+$1(d){var x=null
+return C.f(d.ghc(),x,x,x,x,x,C.o(x,x,x,x,11.8,B.R),x,x)},
+$S:34}
+A.aKu.prototype={
+$1(d){return K.i3(d.giQ(d))},
+$S:z+0}
+A.aKv.prototype={
+$1(d){var x=null,w=T.dU(d.gdX(d))
+return C.f(w,x,x,x,x,x,C.o($.d?B.x:B.v,x,x,x,13.5,B.p),x,x)},
+$S:34}
+A.aKw.prototype={
+$1(d){var x=null
+return C.f(C.J(d.gh8()),x,x,x,x,x,C.o(x,x,x,x,11.8,B.R),x,x)},
+$S:34}
+A.aKx.prototype={
+$1(d){return K.i3(d.gfB(d))},
+$S:z+0}
+A.aKy.prototype={
+$1(d){return M.ee(d.gaI(d))},
+$S:z+1}
+A.aKH.prototype={
+$1(d){return C.a([d.a,d.c,d.e,d.x],y.s)},
+$S:201}
+A.aKB.prototype={
+$1(d){return K.i3(d.c)},
+$S:z+2}
+A.aKC.prototype={
+$1(d){var x=null
+return C.f(d.e,x,x,x,x,x,C.o($.d?B.x:B.v,x,x,x,13.5,B.p),x,x)},
+$S:56}
+A.aKD.prototype={
+$1(d){var x=null
+return C.f(""+d.f,x,x,x,x,x,C.o($.d?B.x:B.v,x,x,x,13.5,B.p),x,x)},
+$S:56}
+A.aKF.prototype={
+$1(d){var x=null
+return C.f(d.x,x,x,x,x,x,C.o($.d?B.x:B.v,x,x,x,13.5,B.p),x,x)},
+$S:56}
+A.aKG.prototype={
+$1(d){return M.ee(d.y)},
+$S:z+3};(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(A.yE,C.L)
+x(A.BP,C.tk)
+w(C.ck,[A.aKr,A.aKs,A.aKt,A.aKI,A.aKJ,A.aKK,A.aKA,A.aKz,A.aKO,A.aKu,A.aKv,A.aKw,A.aKx,A.aKy,A.aKH,A.aKB,A.aKC,A.aKD,A.aKF,A.aKG])
+x(A.aKE,C.dt)
+w(C.cX,[A.aKL,A.aKM,A.aKN])})()
+C.cs(b.typeUniverse,JSON.parse('{"BP":{"P":[],"e":[]}}'))
+var y=(function rtii(){var x=C.G
+return{b:x("K<bw>"),V:x("K<dc>"),T:x("m<K<bw>>"),h:x("m<K<dc>>"),s:x("m<c>"),p:x("m<e>"),l:x("j<cO>"),c:x("j<bw>"),J:x("j<dc>"),B:x("j<bt>"),j:x("j<ce>"),u:x("bw"),Z:x("dc"),N:x("c")}})();(function constants(){var x=a.makeConstList
+H.au7=x(["POS billing terminal","Held bills & returns","Counter registers"],y.s)
+H.aTD=x(["Coupons & discounts","Loyalty members","Combo & BOGO offers"],y.s)})()};
+(a=>{a["9FQCPJECIBhq5EPdjx8+5Eq8idA="]=a.current})($__dart_deferred_initializers__);
