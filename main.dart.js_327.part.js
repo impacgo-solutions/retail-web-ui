@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,F,G,K,C={
-cmG(d){return new C.xo(null)},
+cmD(d){return new C.xo(null)},
 xo:function xo(d){this.a=d},
 W3:function W3(d,e,f,g,h){var _=this
 _.z=_.y=_.x=_.w=null
@@ -15,47 +15,47 @@ _.cy=g
 _.db=h
 _.d=$
 _.c=_.a=null},
-bch:function bch(d){this.a=d},
-bc5:function bc5(d){this.a=d},
-bc6:function bc6(d,e,f,g){var _=this
+bcg:function bcg(d){this.a=d},
+bc4:function bc4(d){this.a=d},
+bc5:function bc5(d,e,f,g){var _=this
 _.a=d
 _.b=e
 _.c=f
 _.d=g},
-bc7:function bc7(d,e){this.a=d
+bc6:function bc6(d,e){this.a=d
 this.b=e},
-bc9:function bc9(d){this.a=d},
-bca:function bca(d,e){this.a=d
+bc8:function bc8(d){this.a=d},
+bc9:function bc9(d,e){this.a=d
 this.b=e},
-bcb:function bcb(d){this.a=d},
-bcg:function bcg(d){this.a=d},
-bcf:function bcf(d,e){this.a=d
-this.b=e},
+bca:function bca(d){this.a=d},
+bcf:function bcf(d){this.a=d},
 bce:function bce(d,e){this.a=d
 this.b=e},
-bcd:function bcd(d){this.a=d},
-bc4:function bc4(d){this.a=d},
-bc3:function bc3(d){this.a=d},
+bcd:function bcd(d,e){this.a=d
+this.b=e},
 bcc:function bcc(d){this.a=d},
-bc8:function bc8(d){this.a=d},
-bbY:function bbY(d){this.a=d},
+bc3:function bc3(d){this.a=d},
+bc2:function bc2(d){this.a=d},
+bcb:function bcb(d){this.a=d},
+bc7:function bc7(d){this.a=d},
 bbX:function bbX(d){this.a=d},
+bbW:function bbW(d){this.a=d},
+bbY:function bbY(d){this.a=d},
 bbZ:function bbZ(d){this.a=d},
 bc_:function bc_(d){this.a=d},
-bc0:function bc0(d){this.a=d},
-bbW:function bbW(d,e){this.a=d
+bbV:function bbV(d,e){this.a=d
 this.b=e},
+bc0:function bc0(d){this.a=d},
 bc1:function bc1(d){this.a=d},
-bc2:function bc2(d){this.a=d},
-bbV:function bbV(d){this.a=d},
-bbT:function bbT(d){this.a=d},
 bbU:function bbU(d){this.a=d},
-bbS:function bbS(d,e,f){this.a=d
+bbS:function bbS(d){this.a=d},
+bbT:function bbT(d){this.a=d},
+bbR:function bbR(d,e,f){this.a=d
 this.b=e
 this.c=f},
-bbR:function bbR(d,e){this.a=d
+bbQ:function bbQ(d,e){this.a=d
 this.b=e},
-bbQ:function bbQ(d,e,f){this.a=d
+bbP:function bbP(d,e,f){this.a=d
 this.b=e
 this.c=f},
 aze:function aze(){}},D,H,I,E,L
@@ -79,7 +79,7 @@ goS(){var x=this.gO().m(0,$.af(),y.S)
 x=x==null?null:x.Q
 return x==null?"":x},
 ak(){this.aw()
-$.aB.rx$.push(new C.bch(this))},
+$.aB.rx$.push(new C.bcg(this))},
 p(){var x=this,w=x.CW,v=w.Z$=$.aq()
 w.Y$=0
 w=x.cx
@@ -94,7 +94,7 @@ w.Y$=0
 x.az()},
 nz(){var x=0,w=A.t(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m,l
 var $async$nz=A.o(function(d,e){if(d===1){t.push(e)
-x=u}for(;;)switch(x){case 0:if(s.goS().length===0){s.t(new C.bc5(s))
+x=u}for(;;)switch(x){case 0:if(s.goS().length===0){s.t(new C.bc4(s))
 x=1
 break}u=4
 s.a.toString
@@ -110,7 +110,7 @@ x=9
 return A.h(B.S.bK(0,"/finance/postings",s.goS()),$async$nz)
 case 9:p=e
 if(s.c==null){x=1
-break}s.t(new C.bc6(s,r,q,p))
+break}s.t(new C.bc5(s,r,q,p))
 u=2
 x=6
 break
@@ -118,7 +118,7 @@ case 4:u=3
 l=t.pop()
 m=A.Q(l)
 if(m instanceof A.ax){o=m
-if(s.c!=null)s.t(new C.bc7(s,o))}else throw l
+if(s.c!=null)s.t(new C.bc6(s,o))}else throw l
 x=6
 break
 case 3:x=2
@@ -138,7 +138,7 @@ return v},
 qy(d){return this.aKq(d)},
 aKq(d){var x=0,w=A.t(y.H),v=1,u=[],t=[],s=this,r,q,p,o
 var $async$qy=A.o(function(e,f){if(e===1){u.push(f)
-x=v}for(;;)switch(x){case 0:s.t(new C.bc9(s))
+x=v}for(;;)switch(x){case 0:s.t(new C.bc8(s))
 v=3
 x=6
 return A.h(d.$0(),$async$qy)
@@ -149,24 +149,24 @@ case 3:v=2
 o=u.pop()
 p=A.Q(o)
 if(p instanceof A.ax){r=p
-if(s.c!=null)s.t(new C.bca(s,r))}else throw o
+if(s.c!=null)s.t(new C.bc9(s,r))}else throw o
 t.push(5)
 x=4
 break
 case 2:t=[1]
 case 4:v=1
-if(s.c!=null)s.t(new C.bcb(s))
+if(s.c!=null)s.t(new C.bca(s))
 x=t.pop()
 break
 case 5:return A.q(null,w)
 case 1:return A.p(u.at(-1),w)}})
 return A.r($async$qy,w)},
-aN0(){return this.qy(new C.bcg(this))},
-Rf(d){return this.qy(new C.bce(this,d))},
+aN0(){return this.qy(new C.bcf(this))},
+Rf(d){return this.qy(new C.bcd(this,d))},
 axZ(){return this.Rf(null)},
-awT(){return this.qy(new C.bc4(this))},
-aKA(){return this.qy(new C.bcc(this))},
-aIB(){return this.qy(new C.bc8(this))},
+awT(){return this.qy(new C.bc3(this))},
+aKA(){return this.qy(new C.bcb(this))},
+aIB(){return this.qy(new C.bc7(this))},
 axY(d){var x=null
 return new A.a4(G.dt,A.e(d,x,x,x,x,x,A.k($.d?B.E:B.D,x,x,x,13,B.n).c6(12,B.H),x,x),x)},
 Re(d,e,f){var x,w,v=null
@@ -179,7 +179,7 @@ a4a(d,e){return this.Re(d,e,!1)},
 a49(d){return this.Re(d,!1,!1)},
 As(d,e){var x=null
 return new A.a4(B.f2,A.V(A.a([A.aQ(A.e(d,x,x,x,x,x,A.k($.d?B.E:B.D,x,x,x,13,B.n).aA(12.5),x,x),x,170),A.aC(A.e(e,x,x,x,x,x,A.k(x,x,1.45,x,14,B.n).c6(13,B.H),x,x),1)],y.p),B.A,B.o,B.u),x)},
-H(d){var x=this,w=x.w,v=y.p,u=A.a([D.VY],v),t=x.z
+H(d){var x=this,w=x.w,v=y.p,u=A.a([D.VX],v),t=x.z
 if(t!=null)u.push(x.a4a(t,!0))
 if(w!=null){v=A.a([x.avL(w),B.aT],v)
 t=x.x
@@ -209,10 +209,10 @@ p=m.As("Tenant",A.j(J.eI(q==null?"":q).length===0?A.j(d.h(a1,f))+" (this company
 o=d.h(a1,"post_from")
 q=m.As("Post sales from",A.j(o==null?"\u2014":o))
 o=m.as
-n=A.N(k,!1,k,k,k,k,k,"Edit",o?k:new C.bbY(m),B.ao,B.aa)
-n=A.a([n,A.N(k,!1,k,k,k,k,D.U_,e,o?k:m.gaa9(),B.ao,B.aa)],v)
-if(J.m(d.h(a1,l),!0))n.push(A.N(k,!1,k,k,k,k,k,"Switch off",m.as?k:new C.bbZ(m),B.ao,B.al))
-else n.push(A.N(k,!1,k,k,k,k,k,"Switch on",m.as?k:new C.bc_(m),B.ao,B.a8))
+n=A.N(k,!1,k,k,k,k,k,"Edit",o?k:new C.bbX(m),B.ao,B.aa)
+n=A.a([n,A.N(k,!1,k,k,k,k,D.TZ,e,o?k:m.gaa9(),B.ao,B.aa)],v)
+if(J.m(d.h(a1,l),!0))n.push(A.N(k,!1,k,k,k,k,k,"Switch off",m.as?k:new C.bbY(m),B.ao,B.al))
+else n.push(A.N(k,!1,k,k,k,k,k,"Switch on",m.as?k:new C.bbZ(m),B.ao,B.a8))
 n.push(A.N(k,!1,k,k,k,k,k,"Disconnect",m.as?k:m.gawS(),B.ao,B.bZ))
 B.e.u(u,A.a([t,s,r,p,q,B.aB,A.ci(B.aG,n,B.b1,8,8)],v))}else{t=A.aQ(A.au(m.CW,!0,k,k,"https://finance.impacgo.com",k,k,k,i,!1,k,1,!1,k,k),k,340)
 if(a0){s=d.h(a1,h)
@@ -223,13 +223,13 @@ r=A.aQ(A.au(m.cx,!0,k,k,A.j(r==null?"":r),k,k,k,"Finance tenant (optional)",!1,k
 q=A.aQ(A.au(m.db,!0,k,k,"today",k,k,k,"Post sales from (yyyy-mm-dd)",!1,k,1,!1,k,k),k,340)
 p=m.axY("Send day journals to Finance")
 o=m.at
-n=A.c9x(k,k,m.as?k:new C.bc0(m),o)
+n=A.c9w(k,k,m.as?k:new C.bc_(m),o)
 o=o?"On":"Off \u2014 days wait"
 o=A.ci(B.aG,A.a([t,s,r,q,A.aQ(A.I(A.a([p,A.V(A.a([n,B.cK,A.e(o,k,k,k,k,k,A.k(k,k,1.45,k,14,B.n).aA(13),k,k)],v),B.B,B.o,B.u)],v),B.A,k,B.o,B.u),k,340)],v),B.b1,12,16)
 t=m.as
-s=A.N(k,!1,k,k,k,k,D.U_,e,t?k:m.gaa9(),B.ao,B.aa)
-s=A.a([s,A.N(k,!1,k,k,k,k,D.bk0,"Save connection",t||J.m(d.h(a1,j),!1)?k:new C.bc1(m),B.ao,B.a8)],v)
-if(a0)s.push(A.N(k,!1,k,k,k,k,k,"Cancel",m.as?k:new C.bc2(m),B.ao,B.al))
+s=A.N(k,!1,k,k,k,k,D.TZ,e,t?k:m.gaa9(),B.ao,B.aa)
+s=A.a([s,A.N(k,!1,k,k,k,k,D.bk0,"Save connection",t||J.m(d.h(a1,j),!1)?k:new C.bc0(m),B.ao,B.a8)],v)
+if(a0)s.push(A.N(k,!1,k,k,k,k,k,"Cancel",m.as?k:new C.bc1(m),B.ao,B.al))
 B.e.u(u,A.a([o,B.aB,A.ci(B.aG,s,B.b1,8,8)],v))}d=m.ax
 if(d!=null){t=m.ay
 B.e.u(u,A.a([B.aW,m.Re(d,!t,t)],v))}return F.ft(A.I(u,B.ai,k,B.o,B.u),!0)},
@@ -242,7 +242,7 @@ v=J.fd(g==null?B.ah:g,x)
 g=y.m
 f=A.a([null],g)
 for(x=A.w(v),u=new A.bh(v,v.gv(v),x.i("bh<Z.E>")),x=x.i("Z.E");u.n();){t=u.d
-f.push(A.j(J.ae(t==null?x.a(t):t,"id")))}s=new C.bbT(v)
+f.push(A.j(J.ae(t==null?x.a(t):t,"id")))}s=new C.bbS(v)
 x=A.e("Finance accounts",i,i,i,i,i,A.k(i,i,1.45,i,14,B.n).c6(15,B.a4),i,i)
 u=y.p
 x=A.a([x,B.aL,A.e("The accounts of your Finance each part of the day's journal goes to. A day waits until every account it uses is set.",i,i,i,i,i,A.k($.d?B.E:B.D,i,i,i,13,B.n).aA(12.5),i,i),B.aB],u)
@@ -262,7 +262,7 @@ k=k==null?i:J.eI(k)}}if(v.gv(v)===0){m=p.a(m.h(n,"account"))
 if(m==null)m=i
 else{m=J.ae(m,"id")
 m=m==null?i:J.eI(m)}m=A.a([m],g)}else m=f
-h.push(new A.bZ(340,i,A.I(A.a([new A.a4(G.dt,l,i),new A.rc(k,m,new C.bbR(j,n),new C.bbS(v,n,s),i,B.bq,i,i,!0,!0,!1,!0,i,q)],u),B.A,i,B.o,B.u),i))}x.push(A.ci(B.aG,h,B.b1,12,16))
+h.push(new A.bZ(340,i,A.I(A.a([new A.a4(G.dt,l,i),new A.rc(k,m,new C.bbQ(j,n),new C.bbR(v,n,s),i,B.bq,i,i,!0,!0,!1,!0,i,q)],u),B.A,i,B.o,B.u),i))}x.push(A.ci(B.aG,h,B.b1,12,16))
 x.push(B.aB)
 x.push(new A.cH(B.dd,i,i,A.N(i,!1,i,i,i,i,i,"Save Finance accounts",o.a===0||j.as||v.gv(v)===0?i:j.gaKz(),B.ao,B.a8),i))
 return F.ft(A.I(x,B.ai,i,B.o,B.u),!0)},
@@ -288,7 +288,7 @@ q=$.d?B.v:B.r
 r=A.e(r,k,k,k,k,k,new A.z(!0,q,k,i,k,k,14,B.n,k,k,k,k,1.45,k,k,k,k,k,k,k,k,k,k,k,k,k).aA(13),k,k)
 q=A.j(s.h(v,"store"))
 p=s.h(v,"seq")
-p=J.cjn(p==null?1:p,1)?" (adj. "+A.j(s.h(v,"seq"))+")":""
+p=J.cjk(p==null?1:p,1)?" (adj. "+A.j(s.h(v,"seq"))+")":""
 o=$.d?B.v:B.r
 q=A.e(q+p,k,k,k,k,k,new A.z(!0,o,k,i,k,k,14,B.n,k,k,k,k,1.45,k,k,k,k,k,k,k,k,k,k,k,k,k).aA(13),k,k)
 p=A.aH(s.h(v,"amount"))
@@ -310,13 +310,13 @@ s=$.d?B.E:B.D
 g.push(A.S(k,A.V(A.a([new A.bZ(100,k,r,k),new A.bZ(120,k,q,k),new A.bZ(110,k,p,k),new A.bZ(110,k,new A.cH(B.bS,k,k,new I.bB(o,n,k),k),k),new A.bZ(130,k,m,k),new A.d4(1,B.b5,A.e(v,k,k,k,k,k,new A.z(!0,s,k,i,k,k,13,B.n,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k).aA(12),k,k),k)],u),B.A,B.o,B.u),B.y,k,k,new A.a_(k,k,new A.bK(B.N,B.N,new A.aK(t,1,B.K,-1),B.N),k,k,k,B.F),k,k,k,k,B.lg,k,k,k))}return F.ft(A.I(g,B.ai,k,B.o,B.u),!0)}}
 C.aze.prototype={}
 var z=a.updateTypes(["aj<~>()"])
-C.bch.prototype={
+C.bcg.prototype={
 $1(d){return this.a.nz()},
 $S:6}
-C.bc5.prototype={
+C.bc4.prototype={
 $0(){return this.a.z="Sign in with a Retail backend account to connect IMPACGO Finance."},
 $S:0}
-C.bc6.prototype={
+C.bc5.prototype={
 $0(){var x,w,v,u,t=this,s=t.a
 s.z=null
 w=s.w=t.b
@@ -336,23 +336,23 @@ s.cy.f2(0,B.dX)
 s.at=!x||J.m(v.h(w,"enabled"),!0)
 if(!x)s.Q=!0},
 $S:0}
-C.bc7.prototype={
+C.bc6.prototype={
 $0(){return this.a.z=this.b.a},
 $S:0}
-C.bc9.prototype={
+C.bc8.prototype={
 $0(){var x=this.a
 x.as=!0
 x.ax=null},
 $S:0}
-C.bca.prototype={
+C.bc9.prototype={
 $0(){var x=this.a
 x.ay=!1
 x.ax=this.b.a},
 $S:0}
-C.bcb.prototype={
+C.bca.prototype={
 $0(){return this.a.as=!1},
 $S:0}
-C.bcg.prototype={
+C.bcf.prototype={
 $0(){var x=0,w=A.t(y.H),v=this,u,t,s
 var $async$$0=A.o(function(d,e){if(d===1)return A.p(e,w)
 for(;;)switch(x){case 0:s=v.a
@@ -361,17 +361,17 @@ u=s.goS()
 x=2
 return A.h(B.S.bs("/finance/connection/test",s.a4b(0),u),$async$$0)
 case 2:t=e
-if(s.c!=null)s.t(new C.bcf(s,t))
+if(s.c!=null)s.t(new C.bce(s,t))
 return A.q(null,w)}})
 return A.r($async$$0,w)},
 $S:2}
-C.bcf.prototype={
+C.bce.prototype={
 $0(){var x,w=this.a
 w.ay=!0
 x=J.ae(this.b,"message")
 w.ax=A.j(x==null?"Connected.":x)},
 $S:0}
-C.bce.prototype={
+C.bcd.prototype={
 $0(){var x=0,w=A.t(y.H),v,u=this,t,s,r,q,p
 var $async$$0=A.o(function(d,e){if(d===1)return A.p(e,w)
 for(;;)switch(x){case 0:p=u.a
@@ -386,16 +386,16 @@ return A.h(B.S.fW(0,"/finance/connection",s,t),$async$$0)
 case 3:t=p.c
 if(t==null){x=1
 break}A.K(t,(q?p.at:r)?"IMPACGO Finance connection saved":"IMPACGO Finance connection switched off",null)
-p.t(new C.bcd(p))
+p.t(new C.bcc(p))
 x=4
 return A.h(p.nz(),$async$$0)
 case 4:case 1:return A.q(v,w)}})
 return A.r($async$$0,w)},
 $S:2}
-C.bcd.prototype={
+C.bcc.prototype={
 $0(){return this.a.Q=!1},
 $S:0}
-C.bc4.prototype={
+C.bc3.prototype={
 $0(){var x=0,w=A.t(y.H),v,u=this,t,s
 var $async$$0=A.o(function(d,e){if(d===1)return A.p(e,w)
 for(;;)switch(x){case 0:s=u.a
@@ -405,16 +405,16 @@ return A.h(B.S.iP(0,"/finance/connection",s.goS()),$async$$0)
 case 3:t=s.c
 if(t==null){x=1
 break}A.K(t,"IMPACGO Finance disconnected",null)
-s.t(new C.bc3(s))
+s.t(new C.bc2(s))
 x=4
 return A.h(s.nz(),$async$$0)
 case 4:case 1:return A.q(v,w)}})
 return A.r($async$$0,w)},
 $S:2}
-C.bc3.prototype={
+C.bc2.prototype={
 $0(){return this.a.Q=!0},
 $S:0}
-C.bcc.prototype={
+C.bcb.prototype={
 $0(){var x=0,w=A.t(y.H),v,u=this,t,s,r,q
 var $async$$0=A.o(function(d,e){if(d===1)return A.p(e,w)
 for(;;)switch(x){case 0:q=u.a
@@ -432,7 +432,7 @@ return A.h(q.nz(),$async$$0)
 case 4:case 1:return A.q(v,w)}})
 return A.r($async$$0,w)},
 $S:2}
-C.bc8.prototype={
+C.bc7.prototype={
 $0(){var x=0,w=A.t(y.H),v,u=this,t,s,r,q
 var $async$$0=A.o(function(d,e){if(d===1)return A.p(e,w)
 for(;;)switch(x){case 0:q=u.a
@@ -449,46 +449,46 @@ return A.h(q.nz(),$async$$0)
 case 4:case 1:return A.q(v,w)}})
 return A.r($async$$0,w)},
 $S:2}
-C.bbY.prototype={
-$0(){var x=this.a
-return x.t(new C.bbX(x))},
-$S:0}
 C.bbX.prototype={
+$0(){var x=this.a
+return x.t(new C.bbW(x))},
+$S:0}
+C.bbW.prototype={
 $0(){return this.a.Q=!0},
 $S:0}
-C.bbZ.prototype={
+C.bbY.prototype={
 $0(){return this.a.Rf(!1)},
 $S:0}
-C.bc_.prototype={
+C.bbZ.prototype={
 $0(){return this.a.Rf(!0)},
 $S:0}
-C.bc0.prototype={
+C.bc_.prototype={
 $1(d){var x=this.a
-return x.t(new C.bbW(x,d))},
+return x.t(new C.bbV(x,d))},
 $S:11}
-C.bbW.prototype={
+C.bbV.prototype={
 $0(){return this.a.at=this.b},
 $S:0}
-C.bc1.prototype={
+C.bc0.prototype={
 $0(){return this.a.axZ()},
 $S:0}
-C.bc2.prototype={
+C.bc1.prototype={
 $0(){var x=this.a
-return x.t(new C.bbV(x))},
+return x.t(new C.bbU(x))},
 $S:0}
-C.bbV.prototype={
+C.bbU.prototype={
 $0(){return this.a.Q=!1},
 $S:0}
-C.bbT.prototype={
-$1(d){var x=this.a,w=A.cB(new A.ap(x,new C.bbU(d),A.w(x).i("ap<Z.E>")))
+C.bbS.prototype={
+$1(d){var x=this.a,w=A.cB(new A.ap(x,new C.bbT(d),A.w(x).i("ap<Z.E>")))
 if(w==null)x=d
 else{x=J.X(w)
 x=A.j(x.h(w,"code"))+" \u2014 "+A.j(x.h(w,"name"))}return x},
 $S:74}
-C.bbU.prototype={
+C.bbT.prototype={
 $1(d){return A.j(J.ae(d,"id"))===this.a},
 $S:100}
-C.bbS.prototype={
+C.bbR.prototype={
 $1(d){var x,w,v,u
 if(d==null)x="\u2014 not set \u2014"
 else{x=this.a
@@ -502,11 +502,11 @@ x=v.a(w.h(x,"account"))
 x=x==null?null:J.ae(x,"name")
 x=u+" \u2014 "+A.j(x==null?"":x)}else x=this.c.$1(d)}return x},
 $S:74}
-C.bbR.prototype={
-$1(d){var x=this.a
-return x.t(new C.bbQ(x,this.b,d))},
-$S:4}
 C.bbQ.prototype={
+$1(d){var x=this.a
+return x.t(new C.bbP(x,this.b,d))},
+$S:4}
+C.bbP.prototype={
 $0(){var x=this.c
 this.a.ch.l(0,A.j(J.ae(this.b,"key")),x)
 return x},
@@ -518,15 +518,15 @@ x(w,"gaKz","aKA",0)
 x(w,"gaIA","aIB",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(C.xo,A.dG)
 x(C.W3,A.dD)
-w(A.bN,[C.bch,C.bc0,C.bbT,C.bbU,C.bbS,C.bbR])
-w(A.cA,[C.bc5,C.bc6,C.bc7,C.bc9,C.bca,C.bcb,C.bcg,C.bcf,C.bce,C.bcd,C.bc4,C.bc3,C.bcc,C.bc8,C.bbY,C.bbX,C.bbZ,C.bc_,C.bbW,C.bc1,C.bc2,C.bbV,C.bbQ])
+w(A.bN,[C.bcg,C.bc_,C.bbS,C.bbT,C.bbR,C.bbQ])
+w(A.cA,[C.bc4,C.bc5,C.bc6,C.bc8,C.bc9,C.bca,C.bcf,C.bce,C.bcd,C.bcc,C.bc3,C.bc2,C.bcb,C.bc7,C.bbX,C.bbW,C.bbY,C.bbZ,C.bbV,C.bc0,C.bc1,C.bbU,C.bbP])
 x(C.aze,A.P)})()
 A.bJ(b.typeUniverse,JSON.parse('{"xo":{"R":[],"f":[]},"W3":{"ah":["xo"]}}'))
 var y=(function rtii(){var x=A.H
-return{J:x("rc<c?>"),p:x("l<f>"),m:x("l<c?>"),f:x("aA<@,@>"),N:x("c"),O:x("b_<c>"),z:x("@"),S:x("bW?"),g:x("i<@>?"),Y:x("aA<@,@>?"),T:x("c?"),H:x("~")}})();(function constants(){D.VY=new L.dE("IMPACGO Finance","Each finished store-day posts to your company's own Finance",B.aX,null)
+return{J:x("rc<c?>"),p:x("l<f>"),m:x("l<c?>"),f:x("aA<@,@>"),N:x("c"),O:x("b_<c>"),z:x("@"),S:x("bW?"),g:x("i<@>?"),Y:x("aA<@,@>?"),T:x("c?"),H:x("~")}})();(function constants(){D.VX=new L.dE("IMPACGO Finance","Each finished store-day posts to your company's own Finance",B.aX,null)
 D.bn9=new C.aze()
 D.bjZ=new A.b_("retailFinanceKey",y.O)
 D.bk_=new A.b_("retailFinancePostNow",y.O)
 D.bk0=new A.b_("retailFinanceSave",y.O)
-D.U_=new A.b_("retailFinanceTest",y.O)})()};
-(a=>{a["k8TCCc9I1+2nP1mgUvTSsZBeDQM="]=a.current})($__dart_deferred_initializers__);
+D.TZ=new A.b_("retailFinanceTest",y.O)})()};
+(a=>{a["k1XfJ2rqA2mbEc+WlL7RV1t2104="]=a.current})($__dart_deferred_initializers__);

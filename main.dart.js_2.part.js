@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={
-c0L(d){var x=J.X(d)
+c0K(d){var x=J.X(d)
 return new B.vr(A.M(x.h(d,"id")),A.M(x.h(d,"invoice")),A.M(x.h(d,"store")),A.B(x.h(d,"cust")),A.M(x.h(d,"time")),A.M(x.h(d,"item")),A.b9(x.h(d,"qty")),A.b9(x.h(d,"amount")),A.M(x.h(d,"reason")),A.M(x.h(d,"refund_mode")),A.M(x.h(d,"status")),A.M(x.h(d,"by")))},
 vr:function vr(d,e,f,g,h,i,j,k,l,m,n,o){var _=this
 _.a=d
@@ -15,9 +15,9 @@ _.x=l
 _.y=m
 _.z=n
 _.Q=o},
-aNK:function aNK(){},
-aNM:function aNM(){},
+aNJ:function aNJ(){},
 aNL:function aNL(){},
+aNK:function aNK(){},
 JH:function JH(d,e,f,g,h,i,j,k,l,m,n,o){var _=this
 _.a=d
 _.b=e
@@ -31,31 +31,31 @@ _.x=l
 _.y=m
 _.z=n
 _.Q=o},
-cyi(d){var x,w,v,u=d.e,t=A.k4(u)
+cyg(d){var x,w,v,u=d.e,t=A.k4(u)
 u=t==null?u:A.LE(t.kf())+" "+A.Lz(t.kf())
 x=C.q.al(d.r)
 w=d.z
-v=D.b2d.h(0,w)
+v=D.b2c.h(0,w)
 w=v==null?w:v
 return new B.JH(d.a,d.b,d.c,d.d,u,d.f,x,d.w,d.x,d.y,w,d.Q)},
 p1:function p1(d,e){this.r=!1
 this.a=d
 this.f=e},
-bTE:function bTE(){}},D
+bTD:function bTD(){}},D
 J=c[1]
 A=c[0]
 C=c[2]
 B=a.updateHolder(c[94],B)
 D=c[270]
 B.vr.prototype={}
-B.aNK.prototype={
+B.aNJ.prototype={
 Dq(d,e){return this.b_3(d,e)},
 b_3(d,e){var x=0,w=A.t(y.x),v,u
 var $async$Dq=A.o(function(f,g){if(f===1)return A.p(g,w)
 for(;;)switch(x){case 0:u=J
 x=3
 return A.h(C.S.cQ("/pos/returns?"+(d.length===0?"":"store_id="+d+"&")+"limit=500&offset=0",e),$async$Dq)
-case 3:v=u.ba(g,new B.aNM(),y.o).aF(0)
+case 3:v=u.ba(g,new B.aNL(),y.o).aF(0)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -74,7 +74,7 @@ s=t.b
 if(s.length!==0)q.push("&"+t.a+"="+A.eS(1,s,C.aK,!0))}o=J
 x=3
 return A.h(C.S.hO("/pos/returns?"+r+"limit="+e+"&offset="+f+p+C.e.il(q),g,j),$async$Dr)
-case 3:v=o.ba(l,new B.aNL(),y.o).aF(0)
+case 3:v=o.ba(l,new B.aNK(),y.o).aF(0)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -94,7 +94,7 @@ r.l(0,"items",u)
 q=B
 x=3
 return A.h(C.S.bs("/pos/returns",r,j),$async$JR)
-case 3:v=q.c0L(l)
+case 3:v=q.c0K(l)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -138,7 +138,7 @@ break
 case 6:x=9
 return A.h(D.kL.Dq("",d),$async$em)
 case 9:p=g
-J.hq(q,J.ba(p,B.bTI(),y.E))
+J.hq(q,J.ba(p,B.bTH(),y.E))
 x=7
 break
 case 8:l=y.E,k=0
@@ -147,7 +147,7 @@ break}o=e[k]
 x=13
 return A.h(D.kL.Dq(o,d),$async$em)
 case 13:n=g
-J.hq(q,J.ba(n,B.bTI(),l))
+J.hq(q,J.ba(n,B.bTH(),l))
 case 11:e.length===m||(0,A.y)(e),++k
 x=10
 break
@@ -164,25 +164,25 @@ case 5:case 1:return A.q(v,w)
 case 2:return A.p(t.at(-1),w)}})
 return A.r($async$em,w)}}
 var z=a.updateTypes(["vr(@)","p1(c6<p1,i<dr>>)","dr(vr)"])
-B.aNM.prototype={
-$1(d){return B.c0L(y.a.a(d))},
-$S:z+0}
 B.aNL.prototype={
-$1(d){return B.c0L(y.a.a(d))},
+$1(d){return B.c0K(y.a.a(d))},
 $S:z+0}
-B.bTE.prototype={
+B.aNK.prototype={
+$1(d){return B.c0K(y.a.a(d))},
+$S:z+0}
+B.bTD.prototype={
 $1(d){return new B.p1(new A.bO(y.I),D.HQ)},
 $S:z+1};(function installTearOffs(){var x=a._static_1
-x(B,"bTI","cyi",2)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
-x(A.P,[B.vr,B.aNK,B.JH])
-x(A.bN,[B.aNM,B.aNL,B.bTE])
+x(B,"bTH","cyg",2)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
+x(A.P,[B.vr,B.aNJ,B.JH])
+x(A.bN,[B.aNL,B.aNK,B.bTD])
 w(B.p1,A.bo)})()
 A.bJ(b.typeUniverse,JSON.parse('{"JH":{"dr":[]},"p1":{"bo":["i<dr>"],"bo.T":"i<dr>"}}'))
 var y=(function rtii(){var x=A.H
 return{t:x("l<aA<c,@>>"),P:x("l<dr>"),s:x("l<c>"),I:x("bO<dR<i<dr>>>"),x:x("i<vr>"),a:x("aA<c,@>"),o:x("vr"),E:x("dr"),N:x("c"),z:x("@"),H:x("~")}})();(function constants(){var x=a.makeConstList
-D.kL=new B.aNK()
+D.kL=new B.aNJ()
 D.HQ=x([],y.P)
 D.b4o={refunded:0,exchanged:1,completed:2}
-D.b2d=new A.bw(D.b4o,["Refunded","Exchanged","Completed"],A.H("bw<c,c>"))})();(function lazyInitializers(){var x=a.lazyFinal
-x($,"cLu","LW",()=>A.ew(new B.bTE(),A.H("p1"),A.H("i<dr>")))})()};
-(a=>{a["maMqcYKZaCx2eW9xzf/8IzP4QGo="]=a.current})($__dart_deferred_initializers__);
+D.b2c=new A.bw(D.b4o,["Refunded","Exchanged","Completed"],A.H("bw<c,c>"))})();(function lazyInitializers(){var x=a.lazyFinal
+x($,"cLt","LW",()=>A.ew(new B.bTD(),A.H("p1"),A.H("i<dr>")))})()};
+(a=>{a["kFwbF06vJr+brbLtMw5otWLGCTM="]=a.current})($__dart_deferred_initializers__);

@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,E,D,C={
-cqq(d){return new C.yN(null)},
+cqn(d){return new C.yN(null)},
 yN:function yN(d){this.a=d},
 Yy:function Yy(d,e,f,g,h,i,j,k){var _=this
 _.w=$
@@ -18,23 +18,23 @@ _.fy=k
 _.id=_.go=!1
 _.d=$
 _.c=_.a=null},
-bv3:function bv3(d,e){this.a=d
+bv2:function bv2(d,e){this.a=d
 this.b=e},
-bv2:function bv2(d){this.a=d},
-buU:function buU(d){this.a=d},
-buV:function buV(d){this.a=d},
-buS:function buS(d){this.a=d},
+bv1:function bv1(d){this.a=d},
 buT:function buT(d){this.a=d},
-buQ:function buQ(d){this.a=d},
+buU:function buU(d){this.a=d},
 buR:function buR(d){this.a=d},
-buZ:function buZ(d){this.a=d},
-bv0:function bv0(){},
-bv_:function bv_(d){this.a=d},
+buS:function buS(d){this.a=d},
+buP:function buP(d){this.a=d},
+buQ:function buQ(d){this.a=d},
 buY:function buY(d){this.a=d},
-bv1:function bv1(d,e){this.a=d
+bv_:function bv_(){},
+buZ:function buZ(d){this.a=d},
+buX:function buX(d){this.a=d},
+bv0:function bv0(d,e){this.a=d
 this.b=e},
-buW:function buW(d){this.a=d},
-buX:function buX(d,e){this.a=d
+buV:function buV(d){this.a=d},
+buW:function buW(d,e){this.a=d
 this.b=e}},F,G,H
 J=c[1]
 A=c[0]
@@ -74,7 +74,7 @@ w=w.m(0,$.af(),x.l)
 t=w==null?null:w.Q
 if(t==null)t=""
 if(t.length!==0)s.id=!0
-$.aB.rx$.push(new C.bv3(s,t))},
+$.aB.rx$.push(new C.bv2(s,t))},
 a94(d){var w=this
 w.cx=d.gad(d)
 w.cy.sb3(0,d.gue())
@@ -152,7 +152,7 @@ break}e=q.w
 e===$&&A.b()
 if(B.h.F(e.a.a).length===0){q.x.sA(0,"Business name is required.")
 w=1
-break}q.t(new C.buU(q))
+break}q.t(new C.buT(q))
 t=4
 e=B.h.F(e.a.a)
 n=q.y
@@ -199,7 +199,7 @@ w=5
 break
 case 3:r=[2]
 case 5:t=2
-if(q.c!=null)q.t(new C.buV(q))
+if(q.c!=null)q.t(new C.buU(q))
 w=r.pop()
 break
 case 6:case 1:return A.q(u,v)
@@ -217,7 +217,7 @@ if(J.T(p)===0){n=q.c
 n.toString
 A.K(n,y.a,null)
 w=1
-break}q.t(new C.buS(q))
+break}q.t(new C.buR(q))
 t=4
 n=n.m(0,$.cv().gK(),x.x)
 m=B.h.F(q.cy.a.a)
@@ -247,7 +247,7 @@ w=5
 break
 case 3:r=[2]
 case 5:t=2
-if(q.c!=null)q.t(new C.buT(q))
+if(q.c!=null)q.t(new C.buS(q))
 w=r.pop()
 break
 case 6:case 1:return A.q(u,v)
@@ -269,7 +269,7 @@ case 3:m=e
 p=m==null?null:J.wH(m.a)
 j=p
 if((j==null?null:j.c)==null){w=1
-break}q.t(new C.buQ(q))
+break}q.t(new C.buP(q))
 t=5
 j=p.c
 j.toString
@@ -297,7 +297,7 @@ w=6
 break
 case 4:r=[2]
 case 6:t=2
-if(q.c!=null)q.t(new C.buR(q))
+if(q.c!=null)q.t(new C.buQ(q))
 w=r.pop()
 break
 case 7:case 1:return A.q(u,v)
@@ -309,7 +309,7 @@ w=g.gO()
 v=w.T($.lu(),x.w)
 u=w.T($.cv(),x.i)
 w=J.cj(u)
-t=A.cB(w.cu(u,new C.buZ(g)))
+t=A.cB(w.cu(u,new C.buY(g)))
 s=A.e("Logo",f,f,f,f,f,A.k($.d?B.v:B.r,f,f,f,12,B.H),f,f)
 r=$.d
 q=r?B.at:B.ax
@@ -352,13 +352,13 @@ h===$&&A.b()
 h=A.V(A.a([j,B.d8,i,B.d8,A.aC(A.au(h,!0,f,f,f,f,f,f,"Pincode",!1,f,1,!1,f,f),1)],p),B.B,B.o,B.u)
 j=g.ch
 i=j?"Saving\u2026":"Save changes"
-s=A.a([F.VS,E.ft(A.I(A.a([s,B.aL,q,B.bI,r,D.cm,o,B.au,n,B.au,m,B.au,l,B.au,k,B.au,h,D.cm,A.N(f,!1,f,f,f,B.bh,f,i,j?f:g.gaKy(),B.C,B.a8)],p),B.A,f,B.o,B.L),!0)],p)
+s=A.a([F.VR,E.ft(A.I(A.a([s,B.aL,q,B.bI,r,D.cm,o,B.au,n,B.au,m,B.au,l,B.au,k,B.au,h,D.cm,A.N(f,!1,f,f,f,B.bh,f,i,j?f:g.gaKy(),B.C,B.a8)],p),B.A,f,B.o,B.L),!0)],p)
 if(w.gbB(u)){r=A.e("Per-store bill details",f,f,f,f,f,A.k($.d?B.v:B.r,f,f,f,12,B.H),f,f)
 q=A.e("Overrides the business profile above for one store's own bills \u2014 its own address, GSTIN and phone.",f,f,f,f,f,A.k($.d?B.E:B.D,f,f,f,13,B.n).aA(11.5),f,f)
 o=t==null?f:t.gad(t)
 if(o==null)o=J.AC(w.gM(u))
 n=x.y
-n=H.cL(!0,new C.bv_(u),w.dd(u,new C.bv0(),n).aF(0),"Store",new C.bv1(g,u),o,n)
+n=H.cL(!0,new C.buZ(u),w.dd(u,new C.bv_(),n).aF(0),"Store",new C.bv0(g,u),o,n)
 o=A.au(g.cy,!0,f,f,f,f,f,f,e,!1,f,1,!1,f,f)
 w=A.au(g.db,!0,f,f,f,f,f,f,d,!1,f,1,!1,f,f)
 m=A.V(A.a([A.aC(A.au(g.dx,!0,f,f,f,f,f,f,"City",!1,f,1,!1,f,f),1),B.d8,A.aC(A.au(g.dy,!0,f,f,f,f,f,f,"State",!1,f,1,!1,f,f),1),B.d8,A.aC(A.au(g.fr,!0,f,f,f,f,f,f,"Pincode",!1,f,1,!1,f,f),1)],p),B.B,B.o,B.u)
@@ -367,7 +367,7 @@ k=g.go
 j=k?"Saving\u2026":"Save store bill details"
 B.e.u(s,A.a([B.dz,E.ft(A.I(A.a([r,B.bI,q,B.aT,n,B.au,o,B.au,w,B.au,m,B.au,l,D.cm,A.N(f,!1,f,f,f,B.bh,f,j,k?f:g.gaKB(),B.C,B.a8)],p),B.A,f,B.o,B.L),!0)],p))}return A.I(s,B.A,f,B.o,B.u)}}
 var z=a.updateTypes(["aj<~>()"])
-C.bv3.prototype={
+C.bv2.prototype={
 $1(d){return this.akd(d)},
 akd(d){var w=0,v=A.t(x.v),u,t=2,s=[],r=[],q=this,p,o,n,m,l,k,j,i,h,g,f
 var $async$$1=A.o(function(e,a0){if(e===1){s.push(a0)
@@ -427,57 +427,57 @@ break
 case 3:r=[2]
 case 5:t=2
 g=q.a
-if(g.c!=null)g.t(new C.bv2(g))
+if(g.c!=null)g.t(new C.bv1(g))
 w=r.pop()
 break
 case 6:case 1:return A.q(u,v)
 case 2:return A.p(s.at(-1),v)}})
 return A.r($async$$1,v)},
 $S:28}
-C.bv2.prototype={
+C.bv1.prototype={
 $0(){return this.a.id=!1},
 $S:0}
-C.buU.prototype={
+C.buT.prototype={
 $0(){return this.a.ch=!0},
 $S:0}
-C.buV.prototype={
+C.buU.prototype={
 $0(){return this.a.ch=!1},
 $S:0}
-C.buS.prototype={
+C.buR.prototype={
 $0(){return this.a.go=!0},
 $S:0}
-C.buT.prototype={
+C.buS.prototype={
 $0(){return this.a.go=!1},
 $S:0}
-C.buQ.prototype={
+C.buP.prototype={
 $0(){return this.a.CW=!0},
 $S:0}
-C.buR.prototype={
+C.buQ.prototype={
 $0(){return this.a.CW=!1},
 $S:0}
-C.buZ.prototype={
+C.buY.prototype={
 $1(d){return d.gad(d)===this.a.cx},
 $S:16}
-C.bv0.prototype={
+C.bv_.prototype={
 $1(d){return d.gad(d)},
 $S:15}
-C.bv_.prototype={
-$1(d){var w=A.cB(J.b8(this.a,new C.buY(d)))
+C.buZ.prototype={
+$1(d){var w=A.cB(J.b8(this.a,new C.buX(d)))
 return w==null?d:w.gb7(w)+" \xb7 "+w.gct(w)},
 $S:5}
-C.buY.prototype={
+C.buX.prototype={
 $1(d){return d.gad(d)===this.a},
 $S:16}
-C.bv1.prototype={
-$1(d){var w,v=A.cB(J.b8(this.b,new C.buW(d)))
+C.bv0.prototype={
+$1(d){var w,v=A.cB(J.b8(this.b,new C.buV(d)))
 if(v==null)return
 w=this.a
-w.t(new C.buX(w,v))},
+w.t(new C.buW(w,v))},
 $S:4}
-C.buW.prototype={
+C.buV.prototype={
 $1(d){return d.gad(d)===this.a},
 $S:16}
-C.buX.prototype={
+C.buW.prototype={
 $0(){return this.a.a94(this.b)},
 $S:0};(function installTearOffs(){var w=a._instance_0u
 var v
@@ -486,9 +486,9 @@ w(v,"gaKB","HP",0)
 w(v,"gaIq","B7",0)})();(function inheritance(){var w=a.inherit,v=a.inheritMany
 w(C.yN,A.dG)
 w(C.Yy,A.dD)
-v(A.bN,[C.bv3,C.buZ,C.bv0,C.bv_,C.buY,C.bv1,C.buW])
-v(A.cA,[C.bv2,C.buU,C.buV,C.buS,C.buT,C.buQ,C.buR,C.buX])})()
+v(A.bN,[C.bv2,C.buY,C.bv_,C.buZ,C.buX,C.bv0,C.buV])
+v(A.cA,[C.bv1,C.buT,C.buU,C.buR,C.buS,C.buP,C.buQ,C.buW])})()
 A.bJ(b.typeUniverse,JSON.parse('{"yN":{"R":[],"f":[]},"Yy":{"ah":["yN"]}}'))
 var y={a:"A demo/local-only sign-in has nothing to save this to \u2014 sign in with a real account."}
-var x={w:A.H("kA"),r:A.H("ro"),p:A.H("l<aj<~>>"),u:A.H("l<f>"),i:A.H("i<bI>"),x:A.H("fz"),y:A.H("c"),l:A.H("bW?"),v:A.H("~")};(function constants(){F.VS=new G.dE("Business Profile","Name, GSTIN, address and logo shown on every printed receipt",B.aX,null)})()};
-(a=>{a["YShx1NqsJQDW0641DSIZRDudXwA="]=a.current})($__dart_deferred_initializers__);
+var x={w:A.H("kA"),r:A.H("ro"),p:A.H("l<aj<~>>"),u:A.H("l<f>"),i:A.H("i<bI>"),x:A.H("fz"),y:A.H("c"),l:A.H("bW?"),v:A.H("~")};(function constants(){F.VR=new G.dE("Business Profile","Name, GSTIN, address and logo shown on every printed receipt",B.aX,null)})()};
+(a=>{a["3au8RjRSt37YcoH6XwaOIYrG6eM="]=a.current})($__dart_deferred_initializers__);

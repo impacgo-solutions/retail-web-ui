@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={
-ccd(d){var x
+ccb(d){var x
 A.aH(d)
 x=d==null?null:d
 return x==null?0:x},
@@ -14,7 +14,7 @@ x=J.a0(d==null?C.ah:d)
 w=y.P
 while(x.n())v.push(w.a(x.gB(x)))
 return v},
-c6M(d){var x,w,v,u,t,s,r,q,p,o,n=J.X(d),m=A.M(n.h(d,"id")),l=A.B(n.h(d,"name"))
+c6L(d){var x,w,v,u,t,s,r,q,p,o,n=J.X(d),m=A.M(n.h(d,"id")),l=A.B(n.h(d,"name"))
 if(l==null)l=""
 x=A.B(n.h(d,"phone"))
 if(x==null)x=""
@@ -60,9 +60,9 @@ f=f==null?a4:C.q.aO(f)
 if(f==null)f=0
 i=A.aH(i.h(j,"rate"))
 if(i==null)i=a4
-n.push(new B.BV(h,g,f,i==null?0:i))}m=B.ccd(a6.h(a8,"per_day"))
+n.push(new B.BV(h,g,f,i==null?0:i))}m=B.ccb(a6.h(a8,"per_day"))
 l=B.a0a(a6.h(a8,"delivered_days"))
-i=B.ccd(a6.h(a8,"bill_so_far"))
+i=B.ccb(a6.h(a8,"bill_so_far"))
 h=A.a([],y.S)
 for(g=B.wv(a6.h(a8,"days")),f=g.length,k=0;k<g.length;g.length===f||(0,A.y)(g),++k){e=g[k]
 d=J.X(e)
@@ -88,7 +88,7 @@ a1=A.B(d.h(a6,"name"))
 if(a1==null)a1=""
 a6=A.B(d.h(a6,"mobile"))
 a6=new B.aBe(a0,a1,a6==null?"":a6)}return new B.nD(a7,x,w,v,u,t,s,r,q,p,o,n,m,l,i,h,g,f===!0,a6)},
-cnh(a8){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3="packets",a4="plans",a5=J.X(a8),a6=y.h.a(a5.h(a8,"slots")),a7=new B.aBd(a6==null?C.dw:a6)
+cne(a8){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3="packets",a4="plans",a5=J.X(a8),a6=y.h.a(a5.h(a8,"slots")),a7=new B.aBd(a6==null?C.dw:a6)
 A.B(a5.h(a8,"date"))
 x=A.a([],y.U)
 for(w=B.wv(a5.h(a8,"totals")),v=w.length,u=0;u<w.length;w.length===v||(0,A.y)(w),++u){t=w[u]
@@ -127,7 +127,7 @@ a1=a1==null?null:C.q.aO(a1)
 g.push(new A.ak4(a2,a1==null?0:a1))}m=A.aH(m.h(n,a3))
 m=m==null?null:C.q.aO(m)
 q.push(new B.a4Y(l,k,j,i,h,g,m==null?0:m))}return new B.a5_(x,w,v,s,r,q)},
-c_V(b1){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7=null,a8=J.X(b1),a9=A.M(a8.h(b1,"id")),b0=A.B(a8.h(b1,"date"))
+c_U(b1){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7=null,a8=J.X(b1),a9=A.M(a8.h(b1,"id")),b0=A.B(a8.h(b1,"date"))
 if(b0==null)b0=""
 x=A.B(a8.h(b1,"slot"))
 if(x==null)x=""
@@ -207,7 +207,7 @@ a0=a0==null?a7:C.q.aO(a0)
 if(a0==null)a0=0
 m=A.aH(m.h(a6,"ice_boxes_back"))
 q.push(new B.a51(l,j,i,h,g,f,e,d,a0,m==null?a7:C.q.aO(m)))}return new B.GN(a9,b0,x,w,v,u,t,s,r,q)},
-c6L(d){var x,w,v=J.X(d),u=A.M(v.h(d,"id")),t=A.B(v.h(d,"name"))
+c6K(d){var x,w,v=J.X(d),u=A.M(v.h(d,"id")),t=A.B(v.h(d,"name"))
 if(t==null)t=""
 x=A.B(v.h(d,"mobile"))
 if(x==null)x=""
@@ -369,7 +369,7 @@ x=3
 return A.h(C.S.cQ("/home-delivery/customers?q="+A.eS(1,d,C.aK,!0),e),$async$K4)
 case 3:u=r.a0(g),t=y.P
 case 4:if(!u.n()){x=5
-break}s.push(B.c6M(t.a(u.gB(u))))
+break}s.push(B.c6L(t.a(u.gB(u))))
 x=4
 break
 case 5:v=s
@@ -383,7 +383,7 @@ var $async$IF=A.o(function(h,i){if(h===1)return A.p(i,w)
 for(;;)switch(x){case 0:u=B
 x=3
 return A.h(C.S.bs("/home-delivery/customers",A.av(["phone",f,"name",e,"address",d],y.N,y.z),g),$async$IF)
-case 3:v=u.c6M(i)
+case 3:v=u.c6L(i)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -444,7 +444,7 @@ for(;;)switch(x){case 0:u=e.length===0?"":"&slot="+e
 t=B
 x=3
 return A.h(C.S.bK(0,"/home-delivery/packing?date="+d+u,f),$async$DQ)
-case 3:v=t.cnh(h)
+case 3:v=t.cne(h)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -521,7 +521,7 @@ var $async$Nq=A.o(function(g,h){if(g===1)return A.p(h,w)
 for(;;)switch(x){case 0:u=B
 x=3
 return A.h(C.S.bK(0,"/home-delivery/runs?date="+d+"&slot="+e,f),$async$Nq)
-case 3:v=u.c_V(h)
+case 3:v=u.c_U(h)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -544,7 +544,7 @@ var $async$Kw=A.o(function(g,h){if(g===1)return A.p(h,w)
 for(;;)switch(x){case 0:u=B
 x=3
 return A.h(C.S.bs("/home-delivery/runs/"+d+"/dispatch",A.av(["warehouse_id",e],y.N,y.z),f),$async$Kw)
-case 3:v=u.c_V(h)
+case 3:v=u.c_U(h)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -555,7 +555,7 @@ var $async$Jo=A.o(function(h,i){if(h===1)return A.p(i,w)
 for(;;)switch(x){case 0:u=B
 x=3
 return A.h(C.S.bs("/home-delivery/runs/"+e+"/close",A.av(["boys",f],y.N,y.z),g),$async$Jo)
-case 3:v=u.c_V(i)
+case 3:v=u.c_U(i)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -585,7 +585,7 @@ x=3
 return A.h(C.S.cQ("/home-delivery/boys",d),$async$C0)
 case 3:u=r.a0(f),t=y.P
 case 4:if(!u.n()){x=5
-break}s.push(B.c6L(t.a(u.gB(u))))
+break}s.push(B.c6K(t.a(u.gB(u))))
 x=4
 break
 case 5:v=s
@@ -607,7 +607,7 @@ case 5:x=7
 return A.h(C.S.MY("/home-delivery/boys/"+d,s,h),$async$zt)
 case 7:case 4:r=j
 q=A.a([],y.a)
-for(u=J.a0(r),t=y.P;u.n();)q.push(B.c6L(t.a(u.gB(u))))
+for(u=J.a0(r),t=y.P;u.n();)q.push(B.c6K(t.a(u.gB(u))))
 v=q
 x=1
 break
@@ -672,8 +672,8 @@ x(A.P,[B.xv,B.xw,B.oL,B.BV,B.a50,B.aBe,B.nD,B.a4Z,B.a4Y,B.a5_,B.BW,B.a51,B.GN,B.
 w(B.aBd,A.bN)})()
 var y=(function rtii(){var x=A.H
 return{E:x("xw"),o:x("a5_"),d:x("nD"),C:x("GN"),Q:x("l<xv>"),a:x("l<nC>"),L:x("l<xw>"),i:x("l<rC>"),T:x("l<a4Y>"),U:x("l<a4Z>"),I:x("l<nD>"),S:x("l<a50>"),u:x("l<BV>"),j:x("l<oL>"),w:x("l<a51>"),_:x("l<BW>"),t:x("l<aA<c,@>>"),e:x("l<+item,qty(c,v)>"),Y:x("l<+itemId,name,packets(c,c,v)>"),s:x("l<c>"),g:x("i<nC>"),Z:x("i<xw>"),R:x("i<rC>"),b:x("i<nD>"),W:x("i<oL>"),P:x("aA<c,@>"),N:x("c"),z:x("@"),M:x("i<@>?"),h:x("aA<c,@>?"),X:x("P?"),H:x("~")}})();(function constants(){D.ch=new B.aBK()
-D.T8=new E.cG("Packets",2,!0)
-D.T5=new E.cG("Delivered",2,!0)
+D.T7=new E.cG("Packets",2,!0)
+D.T4=new E.cG("Delivered",2,!0)
 D.qV=new E.cG("Customer",4,!1)
-D.T7=new E.cG("Items",5,!1)})()};
-(a=>{a["kP8GCT4APHmhUwDGMpk8fQ7HLEM="]=a.current})($__dart_deferred_initializers__);
+D.T6=new E.cG("Items",5,!1)})()};
+(a=>{a["o9oAKfXJrWFlv9uknmrsGEJ7grE="]=a.current})($__dart_deferred_initializers__);

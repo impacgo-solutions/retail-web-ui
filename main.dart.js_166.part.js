@@ -2,17 +2,17 @@
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={H5:function H5(d,e,f){this.c=d
 this.d=e
 this.a=f},ahE:function ahE(){this.d=!1
-this.c=this.a=null},bgX:function bgX(d){this.a=d},bgV:function bgV(d){this.a=d},bgW:function bgW(d){this.a=d},
-c14(d){var x=J.X(d)
+this.c=this.a=null},bgW:function bgW(d){this.a=d},bgU:function bgU(d){this.a=d},bgV:function bgV(d){this.a=d},
+c13(d){var x=J.X(d)
 return new B.hn(A.M(x.h(d,"id")),A.M(x.h(d,"name")),A.M(x.h(d,"tax_type")),A.b9(x.h(d,"rate")),A.mm(x.h(d,"is_active")))},
-c15(d){var x=J.X(d)
-return new B.fn(A.M(x.h(d,"id")),A.M(x.h(d,"name")),A.M(x.h(d,"applies_to")),A.mm(x.h(d,"is_active")),A.B(x.h(d,"effective_from")),A.B(x.h(d,"effective_to")),J.ba(y.j.a(x.h(d,"lines")),new B.aTh(),y.w).aF(0))},
-c_X(d){var x=J.X(d)
+c14(d){var x=J.X(d)
+return new B.fn(A.M(x.h(d,"id")),A.M(x.h(d,"name")),A.M(x.h(d,"applies_to")),A.mm(x.h(d,"is_active")),A.B(x.h(d,"effective_from")),A.B(x.h(d,"effective_to")),J.ba(y.j.a(x.h(d,"lines")),new B.aTg(),y.w).aF(0))},
+c_W(d){var x=J.X(d)
 return new B.fS(A.M(x.h(d,"id")),A.M(x.h(d,"hsn_code")),A.B(x.h(d,"description")),A.B(x.h(d,"parent_hsn_id")),A.B(x.h(d,"default_tax_template_id")),A.mm(x.h(d,"is_active")))},
-c5k(d){var x=J.X(d),w=A.M(x.h(d,"id")),v=A.M(x.h(d,"name"))
+c5j(d){var x=J.X(d),w=A.M(x.h(d,"id")),v=A.M(x.h(d,"name"))
 A.B(x.h(d,"parent_id"))
 return new B.i6(w,v,A.B(x.h(d,"default_tax_template_id")))},
-c76(d){var x=J.X(d)
+c75(d){var x=J.X(d)
 return new B.GW(A.M(x.h(d,"item_id")),A.B(x.h(d,"hsn_id")),A.B(x.h(d,"sales_tax_template_id")))},
 hn:function hn(d,e,f,g,h){var _=this
 _.a=d
@@ -33,7 +33,7 @@ _.d=g
 _.e=h
 _.f=i
 _.r=j},
-aTh:function aTh(){},
+aTg:function aTg(){},
 fS:function fS(d,e,f,g,h,i){var _=this
 _.a=d
 _.b=e
@@ -47,15 +47,15 @@ this.d=f},
 GW:function GW(d,e,f){this.a=d
 this.b=e
 this.c=f},
-aTc:function aTc(){},
-aTe:function aTe(){},
-aTg:function aTg(){},
-aTf:function aTf(){},
+aTb:function aTb(){},
 aTd:function aTd(){},
+aTf:function aTf(){},
+aTe:function aTe(){},
+aTc:function aTc(){},
 qB:function qB(d,e){this.r=!1
 this.a=d
 this.f=e},
-bZ2:function bZ2(){}},D
+bZ1:function bZ1(){}},D
 J=c[1]
 A=c[0]
 C=c[2]
@@ -69,21 +69,21 @@ H(d){var x,w,v=null
 if(!this.a.c)return C.bg
 x=this.d
 w=x?"Loading\u2026":"Load more"
-return new A.a4(C.fq,A.eD(A.N(v,!1,v,v,v,v,v,w,x?v:new B.bgX(this),C.C,C.al),v,v),v)}}
+return new A.a4(C.fq,A.eD(A.N(v,!1,v,v,v,v,v,w,x?v:new B.bgW(this),C.C,C.al),v,v),v)}}
 B.hn.prototype={}
 B.ti.prototype={}
 B.fn.prototype={}
 B.fS.prototype={}
 B.i6.prototype={}
 B.GW.prototype={}
-B.aTc.prototype={
+B.aTb.prototype={
 LS(d){return this.aZH(d)},
 aZH(d){var x=0,w=A.t(y.R),v,u
 var $async$LS=A.o(function(e,f){if(e===1)return A.p(f,w)
 for(;;)switch(x){case 0:u=J
 x=3
 return A.h(C.S.cQ("/tax/components",d),$async$LS)
-case 3:v=u.ba(f,new B.aTe(),y.C).aF(0)
+case 3:v=u.ba(f,new B.aTd(),y.C).aF(0)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -94,7 +94,7 @@ var $async$JH=A.o(function(h,i){if(h===1)return A.p(i,w)
 for(;;)switch(x){case 0:u=B
 x=3
 return A.h(C.S.bs("/tax/components",A.av(["name",d,"tax_type",f,"rate",e],y.N,y.z),g),$async$JH)
-case 3:v=u.c14(i)
+case 3:v=u.c13(i)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -111,7 +111,7 @@ if(e!=null)u.l(0,"is_active",e)
 t=B
 x=3
 return A.h(C.S.hJ("/tax/components/"+d,u,h),$async$Ep)
-case 3:v=t.c14(j)
+case 3:v=t.c13(j)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -122,7 +122,7 @@ var $async$M2=A.o(function(e,f){if(e===1)return A.p(f,w)
 for(;;)switch(x){case 0:u=J
 x=3
 return A.h(C.S.cQ("/tax/templates",d),$async$M2)
-case 3:v=u.ba(f,new B.aTg(),y.b).aF(0)
+case 3:v=u.ba(f,new B.aTf(),y.b).aF(0)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -139,7 +139,7 @@ if(f!=null)u.l(0,"effective_to",f)
 t=B
 x=3
 return A.h(C.S.bs("/tax/templates",u,i),$async$JZ)
-case 3:v=t.c15(k)
+case 3:v=t.c14(k)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -159,7 +159,7 @@ if(e!=null)u.l(0,"effective_to",e)
 t=B
 x=3
 return A.h(C.S.hJ("/tax/templates/"+f,u,j),$async$Ev)
-case 3:v=t.c15(l)
+case 3:v=t.c14(l)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -170,7 +170,7 @@ var $async$Dn=A.o(function(g,h){if(g===1)return A.p(h,w)
 for(;;)switch(x){case 0:u=J
 x=3
 return A.h(C.S.cQ("/tax/hsn-codes?limit="+d+"&offset="+e,f),$async$Dn)
-case 3:v=u.ba(h,new B.aTf(),y.v).aF(0)
+case 3:v=u.ba(h,new B.aTe(),y.v).aF(0)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -186,7 +186,7 @@ if(d!=null)u.l(0,"default_tax_template_id",d)
 t=B
 x=3
 return A.h(C.S.bs("/tax/hsn-codes",u,h),$async$JO)
-case 3:v=t.c_X(j)
+case 3:v=t.c_W(j)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -206,7 +206,7 @@ if(h!=null)u.l(0,"is_active",h)
 t=B
 x=3
 return A.h(C.S.hJ("/tax/hsn-codes/"+g,u,j),$async$Er)
-case 3:v=t.c_X(l)
+case 3:v=t.c_W(l)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -217,7 +217,7 @@ var $async$LQ=A.o(function(e,f){if(e===1)return A.p(f,w)
 for(;;)switch(x){case 0:u=J
 x=3
 return A.h(C.S.cQ("/tax/categories",d),$async$LQ)
-case 3:v=u.ba(f,new B.aTd(),y.d).aF(0)
+case 3:v=u.ba(f,new B.aTc(),y.d).aF(0)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -228,7 +228,7 @@ var $async$F7=A.o(function(g,h){if(g===1)return A.p(h,w)
 for(;;)switch(x){case 0:u=B
 x=3
 return A.h(C.S.hJ("/tax/categories/"+d,A.av(["default_tax_template_id",e],y.N,y.z),f),$async$F7)
-case 3:v=u.c5k(h)
+case 3:v=u.c5j(h)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -239,7 +239,7 @@ var $async$EL=A.o(function(f,g){if(f===1)return A.p(g,w)
 for(;;)switch(x){case 0:u=B
 x=3
 return A.h(C.S.bK(0,"/tax/items/"+d,e),$async$EL)
-case 3:v=u.c76(g)
+case 3:v=u.c75(g)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -250,7 +250,7 @@ var $async$Fa=A.o(function(h,i){if(h===1)return A.p(i,w)
 for(;;)switch(x){case 0:u=B
 x=3
 return A.h(C.S.hJ("/tax/items/"+e,A.av(["hsn_id",d,"sales_tax_template_id",f],y.N,y.z),g),$async$Fa)
-case 3:v=u.c76(i)
+case 3:v=u.c75(i)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -277,11 +277,11 @@ case 5:case 1:return A.q(v,w)
 case 2:return A.p(t.at(-1),w)}})
 return A.r($async$bf,w)}}
 var z=a.updateTypes(["ti(@)","hn(@)","fn(@)","fS(@)","i6(@)","qB(c6<qB,i<fn>>)"])
-B.bgX.prototype={
+B.bgW.prototype={
 $0(){var x=0,w=A.t(y.H),v=1,u=[],t=[],s=this,r
 var $async$$0=A.o(function(d,e){if(d===1){u.push(e)
 x=v}for(;;)switch(x){case 0:r=s.a
-r.t(new B.bgV(r))
+r.t(new B.bgU(r))
 v=2
 x=5
 return A.h(r.a.b1C(),$async$$0)
@@ -290,51 +290,51 @@ x=3
 break
 case 2:t=[1]
 case 3:v=1
-if(r.c!=null)r.t(new B.bgW(r))
+if(r.c!=null)r.t(new B.bgV(r))
 x=t.pop()
 break
 case 4:return A.q(null,w)
 case 1:return A.p(u.at(-1),w)}})
 return A.r($async$$0,w)},
 $S:2}
-B.bgV.prototype={
+B.bgU.prototype={
 $0(){return this.a.d=!0},
 $S:0}
-B.bgW.prototype={
+B.bgV.prototype={
 $0(){return this.a.d=!1},
 $S:0}
-B.aTh.prototype={
+B.aTg.prototype={
 $1(d){var x
 y.P.a(d)
 x=J.X(d)
 A.M(x.h(d,"line_id"))
 return new B.ti(A.M(x.h(d,"tax_id")),A.M(x.h(d,"name")),A.M(x.h(d,"tax_type")),A.b9(x.h(d,"rate")))},
 $S:z+0}
-B.aTe.prototype={
-$1(d){return B.c14(y.P.a(d))},
-$S:z+1}
-B.aTg.prototype={
-$1(d){return B.c15(y.P.a(d))},
-$S:z+2}
-B.aTf.prototype={
-$1(d){return B.c_X(y.P.a(d))},
-$S:z+3}
 B.aTd.prototype={
-$1(d){return B.c5k(y.P.a(d))},
+$1(d){return B.c13(y.P.a(d))},
+$S:z+1}
+B.aTf.prototype={
+$1(d){return B.c14(y.P.a(d))},
+$S:z+2}
+B.aTe.prototype={
+$1(d){return B.c_W(y.P.a(d))},
+$S:z+3}
+B.aTc.prototype={
+$1(d){return B.c5j(y.P.a(d))},
 $S:z+4}
-B.bZ2.prototype={
-$1(d){return new B.qB(new A.bO(y.y),D.aYN)},
+B.bZ1.prototype={
+$1(d){return new B.qB(new A.bO(y.y),D.aYM)},
 $S:z+5};(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(B.H5,A.R)
 x(B.ahE,A.ah)
-w(A.cA,[B.bgX,B.bgV,B.bgW])
-w(A.P,[B.hn,B.ti,B.fn,B.fS,B.i6,B.GW,B.aTc])
-w(A.bN,[B.aTh,B.aTe,B.aTg,B.aTf,B.aTd,B.bZ2])
+w(A.cA,[B.bgW,B.bgU,B.bgV])
+w(A.P,[B.hn,B.ti,B.fn,B.fS,B.i6,B.GW,B.aTb])
+w(A.bN,[B.aTg,B.aTd,B.aTf,B.aTe,B.aTc,B.bZ1])
 x(B.qB,A.bo)})()
 A.bJ(b.typeUniverse,JSON.parse('{"H5":{"R":[],"f":[]},"ahE":{"ah":["H5"]},"qB":{"bo":["i<fn>"],"bo.T":"i<fn>"}}'))
 var y=(function rtii(){var x=A.H
 return{d:x("i6"),v:x("fS"),F:x("GW"),y:x("bO<dR<i<fn>>>"),i:x("i<i6>"),V:x("i<fS>"),R:x("i<hn>"),Z:x("i<fn>"),j:x("i<@>"),P:x("aA<c,@>"),N:x("c"),C:x("hn"),b:x("fn"),w:x("ti"),z:x("@"),H:x("~")}})();(function constants(){var x=a.makeConstList
-D.dn=new B.aTc()
-D.aYN=x([],A.H("l<fn>"))})();(function lazyInitializers(){var x=a.lazyFinal
-x($,"cLI","Ay",()=>A.ew(new B.bZ2(),A.H("qB"),y.Z))})()};
-(a=>{a["rEeA7SXHdNw7IfEzWMfr3POrgnw="]=a.current})($__dart_deferred_initializers__);
+D.dn=new B.aTb()
+D.aYM=x([],A.H("l<fn>"))})();(function lazyInitializers(){var x=a.lazyFinal
+x($,"cLH","Ay",()=>A.ew(new B.bZ1(),A.H("qB"),y.Z))})()};
+(a=>{a["23KB/8hMSImh7if5yH2h/ausW1Q="]=a.current})($__dart_deferred_initializers__);

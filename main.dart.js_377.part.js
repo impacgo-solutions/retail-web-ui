@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,C,H,Q,R,S,T,K,U,V,W,F,X,L,Y,M,N,I,D,G,A={
-crk(d){return new A.zb(null)},
+crh(d){return new A.zb(null)},
 zb:function zb(d){this.a=d},
 Zh:function Zh(d,e,f){var _=this
 _.w=d
@@ -10,34 +10,34 @@ _.z=""
 _.Q=!1
 _.d=$
 _.c=_.a=null},
-bCl:function bCl(d){this.a=d},
-bC3:function bC3(d,e){this.a=d
-this.b=e},
-bC4:function bC4(d){this.a=d},
 bCk:function bCk(d){this.a=d},
-bCj:function bCj(d,e){this.a=d
+bC2:function bC2(d,e){this.a=d
 this.b=e},
-bCa:function bCa(){},
-bC5:function bC5(){},
-bC7:function bC7(d){this.a=d},
-bC8:function bC8(){},
+bC3:function bC3(d){this.a=d},
+bCj:function bCj(d){this.a=d},
+bCi:function bCi(d,e){this.a=d
+this.b=e},
 bC9:function bC9(){},
+bC4:function bC4(){},
+bC6:function bC6(d){this.a=d},
+bC7:function bC7(){},
+bC8:function bC8(){},
+bCa:function bCa(){},
 bCb:function bCb(){},
+bCd:function bCd(){},
 bCc:function bCc(){},
 bCe:function bCe(){},
-bCd:function bCd(){},
 bCf:function bCf(){},
-bCg:function bCg(){},
+bCg:function bCg(d){this.a=d},
 bCh:function bCh(d){this.a=d},
-bCi:function bCi(d){this.a=d},
-bC6:function bC6(d,e){this.a=d
+bC5:function bC5(d,e){this.a=d
+this.b=e},
+bBK:function bBK(d,e){this.a=d
 this.b=e},
 bBL:function bBL(d,e){this.a=d
 this.b=e},
-bBM:function bBM(d,e){this.a=d
-this.b=e},
-bBJ:function bBJ(d){this.a=d},
-bBK:function bBK(d,e,f,g,h,i,j){var _=this
+bBI:function bBI(d){this.a=d},
+bBJ:function bBJ(d,e,f,g,h,i,j){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -45,11 +45,11 @@ _.d=g
 _.e=h
 _.f=i
 _.r=j},
+bC0:function bC0(d){this.a=d},
 bC1:function bC1(d){this.a=d},
-bC2:function bC2(d){this.a=d},
-bC0:function bC0(d,e){this.a=d
+bC_:function bC_(d,e){this.a=d
 this.b=e},
-bBY:function bBY(d,e,f,g,h,i,j,k){var _=this
+bBX:function bBX(d,e,f,g,h,i,j,k){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -58,27 +58,27 @@ _.e=h
 _.f=i
 _.r=j
 _.w=k},
+bBP:function bBP(){},
 bBQ:function bBQ(){},
-bBR:function bBR(){},
-bBS:function bBS(d,e,f){this.a=d
+bBR:function bBR(d,e,f){this.a=d
 this.b=e
 this.c=f},
-bBP:function bBP(d,e,f){this.a=d
+bBO:function bBO(d,e,f){this.a=d
 this.b=e
 this.c=f},
+bBS:function bBS(){},
 bBT:function bBT(){},
-bBU:function bBU(){},
-bBV:function bBV(d,e){this.a=d
-this.b=e},
-bBO:function bBO(d,e){this.a=d
-this.b=e},
-bBW:function bBW(d,e){this.a=d
+bBU:function bBU(d,e){this.a=d
 this.b=e},
 bBN:function bBN(d,e){this.a=d
 this.b=e},
-bBX:function bBX(){},
-bBZ:function bBZ(d){this.a=d},
-bC_:function bC_(d,e,f,g,h,i,j){var _=this
+bBV:function bBV(d,e){this.a=d
+this.b=e},
+bBM:function bBM(d,e){this.a=d
+this.b=e},
+bBW:function bBW(){},
+bBY:function bBY(d){this.a=d},
+bBZ:function bBZ(d,e,f,g,h,i,j){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -125,7 +125,7 @@ return x==null?"":x},
 ak(){var x=this
 x.aw()
 if(x.gu4().length!==0)x.Q=!0
-$.aB.rx$.push(new A.bCl(x))},
+$.aB.rx$.push(new A.bCk(x))},
 tS(){var x=0,w=B.t(y.H),v,u=2,t=[],s=[],r=this,q,p,o,n,m,l
 var $async$tS=B.o(function(d,e){if(d===1){t.push(e)
 x=u}for(;;)switch(x){case 0:m=r.gu4()
@@ -138,7 +138,7 @@ return B.h(B.eF(q,y.K),$async$tS)
 case 7:p=e
 if(r.c==null){s=[1]
 x=5
-break}r.t(new A.bC3(r,p))
+break}r.t(new A.bC2(r,p))
 s.push(6)
 x=5
 break
@@ -153,7 +153,7 @@ x=5
 break
 case 3:s=[2]
 case 5:u=2
-if(r.c!=null)r.t(new A.bC4(r))
+if(r.c!=null)r.t(new A.bC3(r))
 x=s.pop()
 break
 case 6:case 1:return B.q(v,w)
@@ -166,7 +166,7 @@ if(w.a===d)return w.c+" \xb7 "+w.d}return"Warehouse"},
 H(d){var x,w,v,u,t,s,r=this,q=null,p=r.z,o=B.a([""],y.s)
 for(x=J.a0(r.x);x.n();)o.push(x.gB(x).a)
 x=y.p
-p=B.a([new A0.dE("Stock Out","Transfers leaving a warehouse. The stock leaves the source when you send it and becomes stock in at the destination once it is received.",B.a([B.i5(!0,!0,!1,!0,o,q,r.gaOY(),240,new A.bCk(r),C.bq,q,q,p,y.N),B.N(q,!1,q,q,q,X.mM,q,"New stock out",r.gaGH(),C.ao,C.a8)],x),q)],x)
+p=B.a([new A0.dE("Stock Out","Transfers leaving a warehouse. The stock leaves the source when you send it and becomes stock in at the destination once it is received.",B.a([B.i5(!0,!0,!1,!0,o,q,r.gaOY(),240,new A.bCj(r),C.bq,q,q,p,y.N),B.N(q,!1,q,q,q,X.mM,q,"New stock out",r.gaGH(),C.ao,C.a8)],x),q)],x)
 if(r.Q)p.push(C.eR)
 else{o=B.bz("file",C.a7,18)
 w=$.d
@@ -185,8 +185,8 @@ o=B.bz("check",C.aO,18)
 w=$.d?M.bP:M.bV
 s=D.k1(s.d)
 C.e.u(p,B.a([new B.a4(A1.nE,A2.np(4,B.a([v,u,t,H.rd(!1,o,w,"Units received ("+r.y.f+")",q,!0,s)],x),!1),q),r.aMD()],x))}return B.I(p,C.A,q,C.o,C.u)},
-aMD(){var x=this,w=null,v=x.w,u=B.a([new S.bl(!1,"Status",A_.Hu,new A.bC7(x),w,w,w,w,y.L)],y.C),t=y.U
-return F.ea(!1,B.a([new F.L("TRANSFER NO.",new A.bC8(),!1,w,130,0,w,t),new F.L("DATE",new A.bC9(),!1,w,125,0,w,t),new F.L("FROM \u2192 TO",new A.bCb(),!1,w,360,0,w,t),new F.L("ITEMS",new A.bCc(),!1,w,w,0,w,t),new F.L("QTY",new A.bCd(),!0,new A.bCe(),100,0,w,t),new F.L("DELIVERED BY",new A.bCf(),!1,w,170,0,w,t),new F.L("VEHICLE",new A.bCg(),!1,w,140,0,w,t),new F.L("STATUS",new A.bCh(x),!1,w,130,0,w,t)],y.o),w,'No stock out yet. Use "New stock out" to send items to another warehouse.',"stock-out",u,!1,w,w,w,x.gaGC(),w,w,10,new A.bCi(x),v,new A.bCa(),C.bf,!0,!1,!0,!0,w,y.l)},
+aMD(){var x=this,w=null,v=x.w,u=B.a([new S.bl(!1,"Status",A_.Hu,new A.bC6(x),w,w,w,w,y.L)],y.C),t=y.U
+return F.ea(!1,B.a([new F.L("TRANSFER NO.",new A.bC7(),!1,w,130,0,w,t),new F.L("DATE",new A.bC8(),!1,w,125,0,w,t),new F.L("FROM \u2192 TO",new A.bCa(),!1,w,360,0,w,t),new F.L("ITEMS",new A.bCb(),!1,w,w,0,w,t),new F.L("QTY",new A.bCc(),!0,new A.bCd(),100,0,w,t),new F.L("DELIVERED BY",new A.bCe(),!1,w,170,0,w,t),new F.L("VEHICLE",new A.bCf(),!1,w,140,0,w,t),new F.L("STATUS",new A.bCg(x),!1,w,130,0,w,t)],y.o),w,'No stock out yet. Use "New stock out" to send items to another warehouse.',"stock-out",u,!1,w,w,w,x.gaGC(),w,w,10,new A.bCh(x),v,new A.bC9(),C.bf,!0,!1,!0,!0,w,y.l)},
 aGD(d){var x,w,v,u,t,s,r,q=null,p=this.c
 p.toString
 x=d.c
@@ -198,120 +198,120 @@ t=d.w==="received"
 s=y.n
 r=y.p
 x=B.a([C.bI,new B.dZ(B.a([new B.Y("From",v,!1),new B.Y("To",u,!1),new B.Y("Date sent",x,!1),new B.Y("Status",L.dk(t?"Received":"Dispatched"),!1),new B.Y("Delivered by",D.aqT(d.x,d.y),!1),new B.Y("Vehicle no.",d.z,!1),new B.Y("Created by",d.ay,!1),new B.Y("Total quantity",D.k1(d.CW)+" units",!1),new B.Y("Note",d.Q,!0)],s),2,q),G.xa,new D.II(d.cy,!1,"Rate",q),E.baW],r)
-if(t)x.push(new B.dZ(B.a([new B.Y("Received by",D.aqT(d.as,d.at),!1),new B.Y("Received on",D.cf7(d.ax),!1)],s),2,q))
+if(t)x.push(new B.dZ(B.a([new B.Y("Received by",D.aqT(d.as,d.at),!1),new B.Y("Received on",D.cf4(d.ax),!1)],s),2,q))
 else x.push(new D.za("In transit. This stock has left "+v+". It becomes stock in at "+u+" when that warehouse receives it from its Stock In screen.",q))
 x=B.I(x,C.ai,q,C.o,C.u)
-v=B.a([B.N(q,!1,q,q,q,B.bz("download",$.d?C.v:C.r,14),q,"Print challan",new A.bBL(this,d),C.C,C.aa)],r)
-if(!t)v.push(B.N(q,!1,q,q,q,B.bz("edit",$.d?C.v:C.r,14),q,"Edit delivery details",new A.bBM(this,d),C.C,C.aa))
+v=B.a([B.N(q,!1,q,q,q,B.bz("download",$.d?C.v:C.r,14),q,"Print challan",new A.bBK(this,d),C.C,C.aa)],r)
+if(!t)v.push(B.N(q,!1,q,q,q,B.bz("edit",$.d?C.v:C.r,14),q,"Edit delivery details",new A.bBL(this,d),C.C,C.aa))
 Q.lt(p,x,v,"Stock out \xb7 "+w,d.b,y.z)},
 a78(d){var x,w=null,v={},u=$.aq(),t=new B.a5(new B.aD(d.x,C.a3,C.a1),u),s=new B.a5(new B.aD(d.y,C.a3,C.a1),u),r=new B.a5(new B.aD(d.z,C.a3,C.a1),u),q=new B.a5(new B.aD(d.Q,C.a3,C.a1),u)
 v.a=!1
 u=this.c
 u.toString
 x=y.p
-B.bt(u,B.I(B.a([new D.za("Only the delivery details can change while the transfer is still in transit. The items and quantities are fixed.",w),C.aT,new B.dZ(B.a([new B.Y("From",d.e,!1),new B.Y("To",d.r,!1),new B.Y("Items",D.aqS(d.cy),!1),new B.Y("Total quantity",D.k1(d.CW)+" units",!1)],y.n),2,w),E.baZ,new B.f8(B.a([B.au(t,!0,w,w,"e.g. Ramesh (driver)",w,w,w,"Delivered by (name)",!1,w,1,!1,w,w),B.au(s,!0,w,w,"e.g. 9876543210",w,w,C.da,"Delivery person number",!1,w,1,!1,w,w),new P.hg(B.au(r,!0,w,w,"e.g. AP 31 TC 4521",w,w,w,"Vehicle no.",!1,w,1,!1,w,w),w),new P.hg(B.au(q,!0,w,w,w,w,w,w,"Note (optional)",!1,w,3,!1,w,w),w)],x),C.aC,w)],x),C.ai,w,C.o,C.u),B.a([B.N(w,!1,w,w,w,w,w,"Cancel",new A.bBJ(this),C.C,C.al),B.N(w,!1,w,w,w,C.bh,w,"Save changes",new A.bBK(v,this,d,t,s,r,q),C.C,C.a8)],x),"Edit delivery details \xb7 "+d.b,C.aC,y.z)},
+B.bt(u,B.I(B.a([new D.za("Only the delivery details can change while the transfer is still in transit. The items and quantities are fixed.",w),C.aT,new B.dZ(B.a([new B.Y("From",d.e,!1),new B.Y("To",d.r,!1),new B.Y("Items",D.aqS(d.cy),!1),new B.Y("Total quantity",D.k1(d.CW)+" units",!1)],y.n),2,w),E.baZ,new B.f8(B.a([B.au(t,!0,w,w,"e.g. Ramesh (driver)",w,w,w,"Delivered by (name)",!1,w,1,!1,w,w),B.au(s,!0,w,w,"e.g. 9876543210",w,w,C.da,"Delivery person number",!1,w,1,!1,w,w),new P.hg(B.au(r,!0,w,w,"e.g. AP 31 TC 4521",w,w,w,"Vehicle no.",!1,w,1,!1,w,w),w),new P.hg(B.au(q,!0,w,w,w,w,w,w,"Note (optional)",!1,w,3,!1,w,w),w)],x),C.aC,w)],x),C.ai,w,C.o,C.u),B.a([B.N(w,!1,w,w,w,w,w,"Cancel",new A.bBI(this),C.C,C.al),B.N(w,!1,w,w,w,C.bh,w,"Save changes",new A.bBJ(v,this,d,t,s,r,q),C.C,C.a8)],x),"Edit delivery details \xb7 "+d.b,C.aC,y.z)},
 aGI(){var x,w,v,u,t,s,r,q=this,p=null,o={}
 o.a=o.b=null
 for(x=J.a0(q.x);x.n();){w=x.gB(x)
-if(w.a===q.z)o.b=w}o.c=D.cfa()
+if(w.a===q.z)o.b=w}o.c=D.cf7()
 x=$.aq()
 v=new B.a5(C.ae,x)
 u=new B.a5(C.ae,x)
 t=new B.a5(C.ae,x)
 s=new B.a5(C.ae,x)
-r=B.a([D.aSb("",p,"","")],y.u)
+r=B.a([D.aSa("",p,"","")],y.u)
 o.d=!1
 x=q.c
 x.toString
-B.bt(x,new B.dI(new A.bBY(o,new A.bC1(q),r,t,v,u,new A.bC0(o,q),s),p),B.a([B.N(p,!1,p,p,p,p,p,"Cancel",new A.bBZ(q),C.C,C.al),B.N(p,!1,p,p,p,U.rR,p,"Create & dispatch",new A.bC_(o,q,r,v,u,t,s),C.C,C.a8)],y.p),"New stock out",C.bF,y.z)}}
+B.bt(x,new B.dI(new A.bBX(o,new A.bC0(q),r,t,v,u,new A.bC_(o,q),s),p),B.a([B.N(p,!1,p,p,p,p,p,"Cancel",new A.bBY(q),C.C,C.al),B.N(p,!1,p,p,p,U.rR,p,"Create & dispatch",new A.bBZ(o,q,r,v,u,t,s),C.C,C.a8)],y.p),"New stock out",C.bF,y.z)}}
 var z=a.updateTypes(["f(fK)","c(c)","~(fK)","~()","i<c>(fK)","c(tc)","x(fK,c)","aL(fK)","bB(fK)","f(fK,v)","aj<i<ik>>(c)","c(ik)"])
-A.bCl.prototype={
+A.bCk.prototype={
 $1(d){return this.a.tS()},
 $S:6}
-A.bC3.prototype={
+A.bC2.prototype={
 $0(){var x=this.a,w=this.b,v=J.X(w)
 x.w=y.r.a(v.h(w,0))
 x.y=y.A.a(v.h(w,1))
 if(v.gv(w)>2)x.x=y.T.a(v.h(w,2))},
 $S:0}
-A.bC4.prototype={
+A.bC3.prototype={
 $0(){return this.a.Q=!1},
 $S:0}
-A.bCk.prototype={
+A.bCj.prototype={
 $1(d){var x=this.a
-x.t(new A.bCj(x,d))
+x.t(new A.bCi(x,d))
 x.tS()},
 $S:1}
-A.bCj.prototype={
+A.bCi.prototype={
 $0(){var x=this.a
 x.z=this.b
 x.Q=!0},
 $S:0}
-A.bCa.prototype={
+A.bC9.prototype={
 $1(d){var x=B.a([d.b,d.e,d.r,d.x,d.z],y.s),w=d.cy
-C.e.u(x,new B.aw(w,new A.bC5(),B.al(w).i("aw<1,c>")))
+C.e.u(x,new B.aw(w,new A.bC4(),B.al(w).i("aw<1,c>")))
 return x},
 $S:z+4}
-A.bC5.prototype={
+A.bC4.prototype={
 $1(d){return d.c},
 $S:z+5}
-A.bC7.prototype={
+A.bC6.prototype={
 $2(d,e){return(d.w==="received"?"Received":"Dispatched")===e},
 $S:z+6}
-A.bC8.prototype={
+A.bC7.prototype={
 $1(d){var x=null
 return D.nk(d.b,B.k(x,x,x,x,11.8,C.H))},
 $S:z+0}
-A.bC9.prototype={
+A.bC8.prototype={
 $1(d){var x=D.As(d.c)
 return D.nk(x,B.k($.d?C.v:C.r,null,null,null,13.5,C.n))},
 $S:z+0}
-A.bCb.prototype={
+A.bCa.prototype={
 $1(d){return D.nk(d.e+"  \u2192  "+d.r,B.k($.d?C.v:C.r,null,null,null,13.5,C.n))},
 $S:z+0}
-A.bCc.prototype={
+A.bCb.prototype={
 $1(d){var x=D.aqS(d.cy)
 return D.nk(x,B.k($.d?C.v:C.r,null,null,null,13.5,C.n))},
 $S:z+0}
-A.bCe.prototype={
+A.bCd.prototype={
 $1(d){return d.CW},
 $S:z+7}
-A.bCd.prototype={
+A.bCc.prototype={
 $1(d){var x=null
 return D.nk(D.k1(d.CW),B.k(x,x,x,x,11.8,C.H))},
 $S:z+0}
-A.bCf.prototype={
+A.bCe.prototype={
 $1(d){return D.nk(d.x,B.k($.d?C.v:C.r,null,null,null,13.5,C.n))},
 $S:z+0}
-A.bCg.prototype={
+A.bCf.prototype={
 $1(d){return D.nk(d.z,B.k($.d?C.v:C.r,null,null,null,13.5,C.n))},
 $S:z+0}
-A.bCh.prototype={
+A.bCg.prototype={
 $1(d){return L.dk(d.w==="received"?"Received":"Dispatched")},
 $S:z+8}
-A.bCi.prototype={
-$2(d,e){return d.w==="received"?C.bg:new T.d1("edit",new A.bC6(this.a,d),null,null)},
+A.bCh.prototype={
+$2(d,e){return d.w==="received"?C.bg:new T.d1("edit",new A.bC5(this.a,d),null,null)},
 $S:z+9}
-A.bC6.prototype={
+A.bC5.prototype={
 $0(){return this.a.a78(this.b)},
 $S:0}
-A.bBL.prototype={
+A.bBK.prototype={
 $0(){var x=this.a,w=x.c
 w.toString
-return N.aqO(w,Z.cf9(x.gO().m(0,$.lu(),y.y),this.b,x.x))},
+return N.aqO(w,Z.cf6(x.gO().m(0,$.lu(),y.y),this.b,x.x))},
 $S:0}
-A.bBM.prototype={
+A.bBL.prototype={
 $0(){var x=this.a,w=x.c
 w.toString
 B.ao(w,!0).S()
 x.a78(this.b)},
 $S:0}
-A.bBJ.prototype={
+A.bBI.prototype={
 $0(){var x=this.a.c
 x.toString
 return B.ao(x,!0).S()},
 $S:0}
-A.bBK.prototype={
+A.bBJ.prototype={
 $0(){var x=0,w=B.t(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k,j,i
 var $async$$0=B.o(function(d,e){if(d===1){t.push(e)
 x=u}for(;;)switch(x){case 0:j=s.a
@@ -352,27 +352,27 @@ case 6:case 1:return B.q(v,w)
 case 2:return B.p(t.at(-1),w)}})
 return B.r($async$$0,w)},
 $S:2}
-A.bC1.prototype={
+A.bC0.prototype={
 akl(d){var x=0,w=B.t(y.T),v,u=this,t,s,r
 var $async$$1=B.o(function(e,f){if(e===1)return B.p(f,w)
 for(;;)switch(x){case 0:s=C.h.F(d).toLowerCase()
 r=u.a.x
-if(!(s.length===0)){t=J.b8(r,new A.bC2(s))
+if(!(s.length===0)){t=J.b8(r,new A.bC1(s))
 r=B.U(t,t.$ti.i("F.E"))}v=J.r7(r,50).aF(0)
 x=1
 break
 case 1:return B.q(v,w)}})
 return B.r($async$$1,w)},
 $1(d){return this.akl(d)},
-$S:399}
-A.bC2.prototype={
+$S:398}
+A.bC1.prototype={
 $1(d){return C.h.q((d.c+" "+d.d+" "+d.e).toLowerCase(),this.a)},
 $S:134}
-A.bC0.prototype={
+A.bC_.prototype={
 akk(d){var x=0,w=B.t(y.k),v,u=this,t,s,r,q,p
 var $async$$1=B.o(function(e,f){if(e===1)return B.p(f,w)
 for(;;)switch(x){case 0:p=u.a.b
-if(p==null||u.b.gu4().length===0){v=E.aYZ
+if(p==null||u.b.gu4().length===0){v=E.aYY
 x=1
 break}x=3
 return B.h(C.bG.LZ(20,d,u.b.gu4(),p.a),$async$$1)
@@ -386,22 +386,22 @@ case 1:return B.q(v,w)}})
 return B.r($async$$1,w)},
 $1(d){return this.akk(d)},
 $S:z+10}
-A.bBY.prototype={
+A.bBX.prototype={
 $2(d,e){var x=this,w="Search a warehouse\u2026",v=null,u="Type to search\u2026",t=x.a,s=x.b,r=x.c,q=y.a,p=y.p
-q=B.a([K.k3(w,new A.bBQ(),new A.bBR(),"From (stock leaves here)",v,new A.bBS(t,e,r),v,s,u,t.b,q),K.k3(w,new A.bBT(),new A.bBU(),"To (stock arrives here)",v,new A.bBV(t,e),v,s,u,t.a,q),new V.eU(t.c,"Date",new A.bBW(t,e),v),B.au(x.d,!0,v,v,"e.g. AP 31 TC 4521",v,v,v,"Vehicle no. (optional)",!1,v,1,!1,v,v),B.au(x.e,!0,v,v,"e.g. Ramesh (driver)",v,v,v,"Delivered by (name)",!1,v,1,!1,v,v),B.au(x.f,!0,v,v,"e.g. 9876543210",v,v,C.da,"Delivery person number",!1,v,1,!1,v,v)],p)
+q=B.a([K.k3(w,new A.bBP(),new A.bBQ(),"From (stock leaves here)",v,new A.bBR(t,e,r),v,s,u,t.b,q),K.k3(w,new A.bBS(),new A.bBT(),"To (stock arrives here)",v,new A.bBU(t,e),v,s,u,t.a,q),new V.eU(t.c,"Date",new A.bBV(t,e),v),B.au(x.d,!0,v,v,"e.g. AP 31 TC 4521",v,v,v,"Vehicle no. (optional)",!1,v,1,!1,v,v),B.au(x.e,!0,v,v,"e.g. Ramesh (driver)",v,v,v,"Delivered by (name)",!1,v,1,!1,v,v),B.au(x.f,!0,v,v,"e.g. 9876543210",v,v,C.da,"Delivery person number",!1,v,1,!1,v,v)],p)
 t=t.b==null?"Pick the From warehouse first":"Search an item by name or code\u2026"
-return B.I(B.a([E.baY,new B.f8(q,C.bF,v),G.SR,D.c9p(r,new A.bBX(),x.r,t,!1),E.bb_,B.au(x.w,!0,v,v,"e.g. Morning milk run",v,v,v,"Note (optional)",!1,v,3,!1,v,v)],p),C.ai,v,C.o,C.u)},
+return B.I(B.a([E.baY,new B.f8(q,C.bF,v),G.SQ,D.c9o(r,new A.bBW(),x.r,t,!1),E.bb_,B.au(x.w,!0,v,v,"e.g. Morning milk run",v,v,v,"Note (optional)",!1,v,3,!1,v,v)],p),C.ai,v,C.o,C.u)},
 $S:24}
-A.bBQ.prototype={
+A.bBP.prototype={
 $1(d){return d.c+" \xb7 "+d.d},
 $S:97}
-A.bBR.prototype={
+A.bBQ.prototype={
 $1(d){return d.e},
 $S:97}
-A.bBS.prototype={
-$1(d){return this.b.$1(new A.bBP(this.a,d,this.c))},
+A.bBR.prototype={
+$1(d){return this.b.$1(new A.bBO(this.a,d,this.c))},
 $S:217}
-A.bBP.prototype={
+A.bBO.prototype={
 $0(){var x,w,v,u,t=this.a,s=t.b
 s=s==null?null:s.a
 x=this.b
@@ -409,34 +409,34 @@ if(s!==x.a)for(s=this.c,w=s.length,v=0;v<s.length;s.length===w||(0,B.y)(s),++v){
 u.a=null
 u.b.f2(0,C.dX)}t.b=x},
 $S:0}
-A.bBT.prototype={
+A.bBS.prototype={
 $1(d){return d.c+" \xb7 "+d.d},
 $S:97}
-A.bBU.prototype={
+A.bBT.prototype={
 $1(d){return d.e},
 $S:97}
-A.bBV.prototype={
-$1(d){return this.b.$1(new A.bBO(this.a,d))},
+A.bBU.prototype={
+$1(d){return this.b.$1(new A.bBN(this.a,d))},
 $S:217}
-A.bBO.prototype={
+A.bBN.prototype={
 $0(){return this.a.a=this.b},
 $S:0}
-A.bBW.prototype={
-$1(d){return this.b.$1(new A.bBN(this.a,d))},
+A.bBV.prototype={
+$1(d){return this.b.$1(new A.bBM(this.a,d))},
 $S:1}
-A.bBN.prototype={
+A.bBM.prototype={
 $0(){return this.a.c=this.b},
 $S:0}
-A.bBX.prototype={
+A.bBW.prototype={
 $1(d){var x=d.r
 return d.b+" \xb7 In stock "+D.k1(x==null?0:x)},
 $S:z+11}
-A.bBZ.prototype={
+A.bBY.prototype={
 $0(){var x=this.a.c
 x.toString
 return B.ao(x,!0).S()},
 $S:0}
-A.bC_.prototype={
+A.bBZ.prototype={
 $0(){var x=0,w=B.t(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7
 var $async$$0=B.o(function(a8,a9){if(a8===1){t.push(a9)
 x=u}for(;;)A:switch(x){case 0:a6=s.a
@@ -528,16 +528,16 @@ x(v,"gaGC","aGD",2)
 w(v,"gaGH","aGI",3)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(A.zb,B.dG)
 x(A.Zh,B.dD)
-w(B.bN,[A.bCl,A.bCk,A.bCa,A.bC5,A.bC8,A.bC9,A.bCb,A.bCc,A.bCe,A.bCd,A.bCf,A.bCg,A.bCh,A.bC1,A.bC2,A.bC0,A.bBQ,A.bBR,A.bBS,A.bBT,A.bBU,A.bBV,A.bBW,A.bBX])
-w(B.cA,[A.bC3,A.bC4,A.bCj,A.bC6,A.bBL,A.bBM,A.bBJ,A.bBK,A.bBP,A.bBO,A.bBN,A.bBZ,A.bC_])
-w(B.cU,[A.bC7,A.bCi,A.bBY])})()
+w(B.bN,[A.bCk,A.bCj,A.bC9,A.bC4,A.bC7,A.bC8,A.bCa,A.bCb,A.bCd,A.bCc,A.bCe,A.bCf,A.bCg,A.bC0,A.bC1,A.bC_,A.bBP,A.bBQ,A.bBR,A.bBS,A.bBT,A.bBU,A.bBV,A.bBW])
+w(B.cA,[A.bC2,A.bC3,A.bCi,A.bC5,A.bBK,A.bBL,A.bBI,A.bBJ,A.bBO,A.bBN,A.bBM,A.bBY,A.bBZ])
+w(B.cU,[A.bC6,A.bCh,A.bBX])})()
 B.bJ(b.typeUniverse,JSON.parse('{"zb":{"R":[],"f":[]},"Zh":{"ah":["zb"]}}'))
 var y=(function rtii(){var x=B.H
 return{U:x("L<fK>"),L:x("bl<fK>"),y:x("kA"),o:x("l<L<fK>>"),C:x("l<bl<fK>>"),D:x("l<aj<P>>"),n:x("l<Y>"),t:x("l<aA<c,@>>"),u:x("l<DO>"),m:x("l<ik>"),s:x("l<c>"),p:x("l<f>"),r:x("i<fK>"),k:x("i<ik>"),T:x("i<eM>"),K:x("P"),A:x("IJ"),l:x("fK"),N:x("c"),a:x("eM"),z:x("@"),S:x("bW?"),H:x("~")}})();(function constants(){var x=a.makeConstList
-E.aYZ=x([],y.m)
+E.aYY=x([],y.m)
 E.baV=new N.IJ(0,0,0,0,0,0)
 E.baW=new D.p5("Receipt",G.nI,null)
 E.baY=new D.p5("Transfer details",R.e0,null)
 E.baZ=new D.p5("Delivery",G.nI,null)
 E.bb_=new D.p5("Note",W.jm,null)})()};
-(a=>{a["kcJ0lUChVI05jaw4Ct6rABI2LN4="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["GXuziK9i/dXELWUKgTLNbMxbaic="]=a.current})($__dart_deferred_initializers__);

@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={
-coC(d){var x,w,v,u,t,s,r,q,p,o=null,n=A.a([],y.B),m=J.X(d),l=y.d.a(m.h(d,"stores"))
+coz(d){var x,w,v,u,t,s,r,q,p,o=null,n=A.a([],y.B),m=J.X(d),l=y.d.a(m.h(d,"stores"))
 l=J.a0(l==null?C.ah:l)
 x=y.y
 while(l.n()){w=x.a(l.gB(l))
@@ -44,7 +44,7 @@ _.f=i
 _.r=j},
 a6R:function a6R(d,e){this.a=d
 this.b=e},
-aNn:function aNn(){}},D
+aNm:function aNm(){}},D
 J=c[1]
 A=c[0]
 C=c[2]
@@ -54,7 +54,7 @@ B.v6.prototype={}
 B.abg.prototype={}
 B.a6Q.prototype={}
 B.a6R.prototype={}
-B.aNn.prototype={
+B.aNm.prototype={
 MG(d,e,f,g){return this.b2A(d,e,f,g)},
 b2A(d,e,f,g){var x=0,w=A.t(y.A),v,u,t,s,r,q,p,o,n
 var $async$MG=A.o(function(h,i){if(h===1)return A.p(i,w)
@@ -130,12 +130,12 @@ u=A.eN(null,null,null,null,u,null).f
 t=B
 x=3
 return A.h(C.S.bK(0,"/reports/network-summary?"+(u==null?"":u),g),$async$Md)
-case 3:v=t.coC(i)
+case 3:v=t.coz(i)
 x=1
 break
 case 1:return A.q(v,w)}})
 return A.r($async$Md,w)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inheritMany
-x(A.P,[B.v6,B.abg,B.a6Q,B.a6R,B.aNn])})()
-var y={B:A.H("l<a6Q>"),x:A.H("l<v6>"),A:A.H("i<v6>"),y:A.H("aA<c,@>"),E:A.H("a6R"),w:A.H("c"),v:A.H("abg"),d:A.H("i<@>?")};(function constants(){D.n0=new B.aNn()})()};
-(a=>{a["jt8YuyJ0jAyFUpnVM0M6853o0lY="]=a.current})($__dart_deferred_initializers__);
+x(A.P,[B.v6,B.abg,B.a6Q,B.a6R,B.aNm])})()
+var y={B:A.H("l<a6Q>"),x:A.H("l<v6>"),A:A.H("i<v6>"),y:A.H("aA<c,@>"),E:A.H("a6R"),w:A.H("c"),v:A.H("abg"),d:A.H("i<@>?")};(function constants(){D.n0=new B.aNm()})()};
+(a=>{a["k/jiILu7/K2LDInZ6oDrfm86jvE="]=a.current})($__dart_deferred_initializers__);

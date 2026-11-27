@@ -1,9 +1,9 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={
-cqh(d){var x=J.X(d),w=A.M(x.h(d,"role_id")),v=A.M(x.h(d,"role")),u=J.ba(y.i.a(x.h(d,"vals")),new B.aNV(),y.w).aF(0),t=J.m(x.h(d,"locked"),!0),s=x.h(d,"blurb")
+cqe(d){var x=J.X(d),w=A.M(x.h(d,"role_id")),v=A.M(x.h(d,"role")),u=J.ba(y.i.a(x.h(d,"vals")),new B.aNU(),y.w).aF(0),t=J.m(x.h(d,"locked"),!0),s=x.h(d,"blurb")
 return new B.o_(w,v,u,t,A.M(s==null?"":s),J.m(x.h(d,"custom"),!0))},
-aNS(d){var x,w,v,u,t=J.X(d),s=y.i,r=y.w,q=J.ba(s.a(t.h(d,"columns")),new B.aNT(),r).aF(0)
-s=J.ba(s.a(t.h(d,"rows")),new B.aNU(),y.D).aF(0)
+aNR(d){var x,w,v,u,t=J.X(d),s=y.i,r=y.w,q=J.ba(s.a(t.h(d,"columns")),new B.aNS(),r).aF(0)
+s=J.ba(s.a(t.h(d,"rows")),new B.aNT(),y.D).aF(0)
 x=A.A(r,r)
 w=t.h(d,"legend")
 if(w==null)w=C.lY
@@ -18,7 +18,7 @@ x=x.gW(x)
 while(x.n()){w=x.gB(x)
 r.l(0,A.j(w.a),A.j(w.b))}J.m(t.h(d,"actor_super_admin"),!0)
 return new B.RM(q,s,r)},
-bZY(d){var x,w,v=J.X(d),u=A.M(v.h(d,"id")),t=v.h(d,"name")
+bZX(d){var x,w,v=J.X(d),u=A.M(v.h(d,"id")),t=v.h(d,"name")
 t=A.M(t==null?"":t)
 x=v.h(d,"email")
 x=A.M(x==null?"":x)
@@ -31,12 +31,12 @@ _.c=f
 _.d=g
 _.e=h
 _.f=i},
-aNV:function aNV(){},
+aNU:function aNU(){},
 RM:function RM(d,e,f){this.b=d
 this.c=e
 this.e=f},
+aNS:function aNS(){},
 aNT:function aNT(){},
-aNU:function aNU(){},
 no:function no(d,e,f,g,h,i,j,k,l,m){var _=this
 _.a=d
 _.b=e
@@ -65,7 +65,7 @@ var $async$yV=A.o(function(e,f){if(e===1)return A.p(f,w)
 for(;;)switch(x){case 0:u=B
 x=3
 return A.h(C.S.bK(0,"/admin/role-matrix",d),$async$yV)
-case 3:v=u.aNS(f)
+case 3:v=u.aNR(f)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -76,7 +76,7 @@ var $async$EX=A.o(function(g,h){if(g===1)return A.p(h,w)
 for(;;)switch(x){case 0:u=B
 x=3
 return A.h(C.S.fW(0,"/admin/role-matrix/"+e,A.av(["levels",f],y.w,y.b),d),$async$EX)
-case 3:v=u.aNS(h)
+case 3:v=u.aNR(h)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -91,7 +91,7 @@ if(f!=null)u.l(0,"copy_from_role_id",f)
 t=B
 x=3
 return A.h(C.S.bs("/admin/roles",u,d),$async$JS)
-case 3:v=t.aNS(i)
+case 3:v=t.aNR(i)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -105,7 +105,7 @@ if(f!=null)u.l(0,"description",f)
 t=B
 x=3
 return A.h(C.S.hJ("/admin/roles/"+e,u,d),$async$O6)
-case 3:v=t.aNS(i)
+case 3:v=t.aNR(i)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -134,7 +134,7 @@ if(j!=null)u.l(0,"store_id",j)
 t=B
 x=3
 return A.h(C.S.bs("/admin/users",u,d),$async$K0)
-case 3:v=t.bZY(l)
+case 3:v=t.bZX(l)
 x=1
 break
 case 1:return A.q(v,w)}})
@@ -155,25 +155,25 @@ if(f!=null)u.l(0,"active",f)
 t=B
 x=3
 return A.h(C.S.hJ("/admin/users/"+e,u,d),$async$Ew)
-case 3:v=t.bZY(m)
+case 3:v=t.bZX(m)
 x=1
 break
 case 1:return A.q(v,w)}})
 return A.r($async$Ew,w)}}
 var z=a.updateTypes(["o_(@)","no(@)"])
-B.aNV.prototype={
+B.aNU.prototype={
+$1(d){return A.j(d)},
+$S:129}
+B.aNS.prototype={
 $1(d){return A.j(d)},
 $S:129}
 B.aNT.prototype={
-$1(d){return A.j(d)},
-$S:129}
-B.aNU.prototype={
-$1(d){return B.cqh(y.y.a(d))},
+$1(d){return B.cqe(y.y.a(d))},
 $S:z+0}
 B.arB.prototype={
-$1(d){return B.bZY(y.y.a(d))},
+$1(d){return B.bZX(y.y.a(d))},
 $S:z+1};(function inheritance(){var x=a.inheritMany
 x(A.P,[B.o_,B.RM,B.no,B.arA])
-x(A.bN,[B.aNV,B.aNT,B.aNU,B.arB])})()
+x(A.bN,[B.aNU,B.aNS,B.aNT,B.arB])})()
 var y={m:A.H("no"),n:A.H("i<no>"),i:A.H("i<@>"),y:A.H("aA<c,@>"),B:A.H("aA<@,@>"),E:A.H("RM"),D:A.H("o_"),w:A.H("c"),b:A.H("@")};(function constants(){D.fi=new B.arA()})()};
-(a=>{a["bZcWqSIlq1FChXfKfrUNgAyh81w="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["ivYVt0Y/iGcEew08LjbyDGn57H0="]=a.current})($__dart_deferred_initializers__);

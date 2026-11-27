@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,K,R,S,T,N,U,V,W,F,X,L,Y,O,C={
-crj(d){return new C.z9(null)},
+crg(d){return new C.z9(null)},
 z9:function z9(d){this.a=d},
 Zg:function Zg(d,e,f,g){var _=this
 _.w=d
@@ -11,47 +11,47 @@ _.Q=""
 _.as=!1
 _.d=$
 _.c=_.a=null},
-bBy:function bBy(d){this.a=d},
-bBc:function bBc(d,e){this.a=d
-this.b=e},
-bBd:function bBd(d){this.a=d},
-bBw:function bBw(d){this.a=d},
-bBv:function bBv(d,e){this.a=d
-this.b=e},
 bBx:function bBx(d){this.a=d},
 bBb:function bBb(d,e){this.a=d
 this.b=e},
-bBm:function bBm(){},
-bBe:function bBe(){},
+bBc:function bBc(d){this.a=d},
+bBv:function bBv(d){this.a=d},
+bBu:function bBu(d,e){this.a=d
+this.b=e},
+bBw:function bBw(d){this.a=d},
+bBa:function bBa(d,e){this.a=d
+this.b=e},
+bBl:function bBl(){},
+bBd:function bBd(){},
+bBg:function bBg(){},
 bBh:function bBh(){},
 bBi:function bBi(){},
-bBj:function bBj(){},
+bBm:function bBm(){},
 bBn:function bBn(){},
 bBo:function bBo(){},
-bBp:function bBp(){},
-bBr:function bBr(){},
 bBq:function bBq(){},
-bBt:function bBt(){},
+bBp:function bBp(){},
 bBs:function bBs(){},
-bBu:function bBu(){},
+bBr:function bBr(){},
+bBt:function bBt(){},
+bBj:function bBj(d){this.a=d},
 bBk:function bBk(d){this.a=d},
-bBl:function bBl(d){this.a=d},
+bBe:function bBe(d,e){this.a=d
+this.b=e},
 bBf:function bBf(d,e){this.a=d
 this.b=e},
-bBg:function bBg(d,e){this.a=d
+bAS:function bAS(d,e){this.a=d
 this.b=e},
 bAT:function bAT(d,e){this.a=d
 this.b=e},
 bAU:function bAU(d,e){this.a=d
 this.b=e},
-bAV:function bAV(d,e){this.a=d
-this.b=e},
-bAR:function bAR(d){this.a=d},
-bAS:function bAS(d,e,f){this.a=d
+bAQ:function bAQ(d){this.a=d},
+bAR:function bAR(d,e,f){this.a=d
 this.b=e
 this.c=f},
-bB9:function bB9(d){this.a=d},
-bBa:function bBa(d,e,f,g,h,i,j){var _=this
+bB8:function bB8(d){this.a=d},
+bB9:function bB9(d,e,f,g,h,i,j){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -59,7 +59,7 @@ _.d=g
 _.e=h
 _.f=i
 _.r=j},
-bB7:function bB7(d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
+bB6:function bB6(d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -73,25 +73,25 @@ _.y=m
 _.z=n
 _.Q=o
 _.as=p},
-bB2:function bB2(d){this.a=d},
-bAY:function bAY(d){this.a=d},
+bB1:function bB1(d){this.a=d},
+bAX:function bAX(d){this.a=d},
+bAZ:function bAZ(){},
 bB_:function bB_(){},
-bB0:function bB0(){},
-bB1:function bB1(d,e){this.a=d
+bB0:function bB0(d,e){this.a=d
 this.b=e},
-bAZ:function bAZ(d,e){this.a=d
+bAY:function bAY(d,e){this.a=d
 this.b=e},
-bB3:function bB3(d,e){this.a=d
-this.b=e},
-bAX:function bAX(d,e){this.a=d
-this.b=e},
-bB4:function bB4(d,e){this.a=d
+bB2:function bB2(d,e){this.a=d
 this.b=e},
 bAW:function bAW(d,e){this.a=d
 this.b=e},
-bB5:function bB5(){},
-bB6:function bB6(d){this.a=d},
-bB8:function bB8(d,e,f,g,h,i,j,k,l,m,n,o,p,q){var _=this
+bB3:function bB3(d,e){this.a=d
+this.b=e},
+bAV:function bAV(d,e){this.a=d
+this.b=e},
+bB4:function bB4(){},
+bB5:function bB5(d){this.a=d},
+bB7:function bB7(d,e,f,g,h,i,j,k,l,m,n,o,p,q){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -136,7 +136,7 @@ A1=c[108]
 M=c[109]
 Q=c[130]
 C.z9.prototype={
-V(){return new C.Zg(E.aZ_,I.HP,Y.pQ,E.baU)}}
+V(){return new C.Zg(E.aYZ,I.HP,Y.pQ,E.baU)}}
 C.Zg.prototype={
 gu3(){var x=this.gO().m(0,$.af(),y.S)
 x=x==null?null:x.Q
@@ -144,7 +144,7 @@ return x==null?"":x},
 ak(){var x=this
 x.aw()
 if(x.gu3().length!==0)x.as=!0
-$.aB.rx$.push(new C.bBy(x))},
+$.aB.rx$.push(new C.bBx(x))},
 By(d){return this.aJA(d)},
 I7(){return this.By(!1)},
 aJA(d){var x=0,w=A.t(y.H),v,u=2,t=[],s=[],r=this,q,p,o,n,m,l
@@ -159,7 +159,7 @@ return A.h(A.eF(q,y.K),$async$By)
 case 7:p=f
 if(r.c==null){s=[1]
 x=5
-break}r.t(new C.bBc(r,p))
+break}r.t(new C.bBb(r,p))
 s.push(6)
 x=5
 break
@@ -174,7 +174,7 @@ x=5
 break
 case 3:s=[2]
 case 5:u=2
-if(r.c!=null)r.t(new C.bBd(r))
+if(r.c!=null)r.t(new C.bBc(r))
 x=s.pop()
 break
 case 6:case 1:return A.q(v,w)
@@ -188,7 +188,7 @@ HS(d){return this.aL5(d)},
 aL5(d){var x=0,w=A.t(y.k),v,u=this,t,s,r,q,p,o,n,m,l
 var $async$HS=A.o(function(e,f){if(e===1)return A.p(f,w)
 for(;;)switch(x){case 0:x=3
-return A.h(U.bTK(u.gO(),d),$async$HS)
+return A.h(U.bTJ(u.gO(),d),$async$HS)
 case 3:m=f
 l=A.a([],y.m)
 for(t=J.a0(m);t.n();){s=t.gB(t)
@@ -206,7 +206,7 @@ return A.r($async$HS,w)},
 H(d){var x,w,v,u,t,s,r=this,q=null,p=r.Q,o=A.a([""],y.s)
 for(x=J.a0(r.y);x.n();)o.push(x.gB(x).a)
 x=y.p
-p=A.a([new Z.dE("Stock In","Goods received into a warehouse: from production, from a transfer, or other. Each entry adds to that warehouse's stock.",A.a([A.i5(!0,!0,!1,!0,o,q,r.gaMB(),240,new C.bBw(r),B.bq,q,q,p,y.N),A.N(q,!1,q,q,q,X.mM,q,"Add stock in",new C.bBx(r),B.ao,B.a8)],x),q)],x)
+p=A.a([new Z.dE("Stock In","Goods received into a warehouse: from production, from a transfer, or other. Each entry adds to that warehouse's stock.",A.a([A.i5(!0,!0,!1,!0,o,q,r.gaMB(),240,new C.bBv(r),B.bq,q,q,p,y.N),A.N(q,!1,q,q,q,X.mM,q,"Add stock in",new C.bBw(r),B.ao,B.a8)],x),q)],x)
 if(r.as)p.push(B.eR)
 else{o=A.bz("file",B.a7,18)
 w=$.d
@@ -229,7 +229,7 @@ s.push(r.aMA())
 B.e.u(p,s)}return A.I(p,B.A,q,B.o,B.u)},
 aHO(){var x,w,v,u,t,s,r,q,p,o=null,n="Inter",m=$.d,l=m?B.ap:B.J,k=A.aW(m?B.U:B.X,B.K,1),j=A.as(12),i=A.e("Transfers waiting to be received",o,o,o,o,o,A.k(o,o,o,-0.1,16,B.H),o,o)
 m=y.p
-i=A.a([new A.a4(E.a54,A.I(A.a([i,B.bI,A.e("These were sent out by another warehouse. Receiving one adds its items to the destination stock.",o,o,o,o,o,A.k($.d?B.E:B.D,o,o,o,13,B.n),o,o)],m),B.A,o,B.o,B.u),o)],m)
+i=A.a([new A.a4(E.a53,A.I(A.a([i,B.bI,A.e("These were sent out by another warehouse. Receiving one adds its items to the destination stock.",o,o,o,o,o,A.k($.d?B.E:B.D,o,o,o,13,B.n),o,o)],m),B.A,o,B.o,B.u),o)],m)
 for(x=J.a0(this.x),w=y.s;x.n();){v=x.gB(x)
 u=$.d
 t=u?B.U:B.X
@@ -248,36 +248,36 @@ if(q.length!==0)r.push("Vehicle "+q)
 r=B.e.av(r,"  \xb7  ")
 q=$.d?B.v:B.r
 p=$.d?B.Y:B.T
-i.push(A.S(o,A.V(A.a([new A.d4(1,B.b5,A.I(A.a([u,B.aL,s,B.bI,A.e(r,o,o,o,o,o,new A.z(!0,q,o,n,o,o,14,B.n,o,o,o,o,1.45,o,o,o,o,o,o,o,o,o,o,o,o,o).c5(p,12.5),o,o)],m),B.A,o,B.o,B.u),o),B.fC,new A.hF("Receive",B.bh,new C.bBb(this,v),B.a8,B.ao,!1,o,o,o,o,o)],m),B.B,B.o,B.u),B.y,o,o,new A.a_(o,o,new A.bK(new A.aK(t,1,B.K,-1),B.N,B.N,B.N),o,o,o,B.F),o,o,o,o,B.AQ,o,o,o))}return A.S(o,A.I(i,B.ai,o,B.o,B.u),B.c0,o,o,new A.a_(l,o,k,j,o,o,B.F),o,o,o,o,o,o,o,o)},
-aMA(){var x=this,w=null,v=x.w,u=A.a([new T.bl(!1,"Source",E.aWK,new C.bBh(),w,w,w,w,y.a)],y.v),t=y.i
-return F.ea(!1,A.a([new F.L("ENTRY NO.",new C.bBi(),!1,w,130,0,w,t),new F.L("DATE",new C.bBj(),!1,w,125,0,w,t),new F.L("WAREHOUSE",new C.bBn(),!1,w,220,0,w,t),new F.L("SOURCE",new C.bBo(),!1,w,170,0,w,t),new F.L("ITEMS",new C.bBp(),!1,w,w,0,w,t),new F.L("TOTAL QTY",new C.bBq(),!0,new C.bBr(),110,0,w,t),new F.L("VALUE",new C.bBs(),!0,new C.bBt(),130,0,w,t),new F.L("RECEIVED BY",new C.bBu(),!1,w,170,0,w,t),new F.L("STATUS",new C.bBk(x),!1,w,130,0,w,t)],y.d),w,'No stock in entries yet. Use "Add stock in" to record goods received.',"stock-in",u,!1,w,w,w,x.gaMy(),w,w,10,new C.bBl(x),v,new C.bBm(),B.bf,!0,!1,!0,!0,w,y.e)},
+i.push(A.S(o,A.V(A.a([new A.d4(1,B.b5,A.I(A.a([u,B.aL,s,B.bI,A.e(r,o,o,o,o,o,new A.z(!0,q,o,n,o,o,14,B.n,o,o,o,o,1.45,o,o,o,o,o,o,o,o,o,o,o,o,o).c5(p,12.5),o,o)],m),B.A,o,B.o,B.u),o),B.fC,new A.hF("Receive",B.bh,new C.bBa(this,v),B.a8,B.ao,!1,o,o,o,o,o)],m),B.B,B.o,B.u),B.y,o,o,new A.a_(o,o,new A.bK(new A.aK(t,1,B.K,-1),B.N,B.N,B.N),o,o,o,B.F),o,o,o,o,B.AQ,o,o,o))}return A.S(o,A.I(i,B.ai,o,B.o,B.u),B.c0,o,o,new A.a_(l,o,k,j,o,o,B.F),o,o,o,o,o,o,o,o)},
+aMA(){var x=this,w=null,v=x.w,u=A.a([new T.bl(!1,"Source",E.aWJ,new C.bBg(),w,w,w,w,y.a)],y.v),t=y.i
+return F.ea(!1,A.a([new F.L("ENTRY NO.",new C.bBh(),!1,w,130,0,w,t),new F.L("DATE",new C.bBi(),!1,w,125,0,w,t),new F.L("WAREHOUSE",new C.bBm(),!1,w,220,0,w,t),new F.L("SOURCE",new C.bBn(),!1,w,170,0,w,t),new F.L("ITEMS",new C.bBo(),!1,w,w,0,w,t),new F.L("TOTAL QTY",new C.bBp(),!0,new C.bBq(),110,0,w,t),new F.L("VALUE",new C.bBr(),!0,new C.bBs(),130,0,w,t),new F.L("RECEIVED BY",new C.bBt(),!1,w,170,0,w,t),new F.L("STATUS",new C.bBj(x),!1,w,130,0,w,t)],y.d),w,'No stock in entries yet. Use "Add stock in" to record goods received.',"stock-in",u,!1,w,w,w,x.gaMy(),w,w,10,new C.bBk(x),v,new C.bBl(),B.bf,!0,!1,!0,!0,w,y.e)},
 a9T(d){return d.length===0?"":d[0].toUpperCase()+B.h.bh(d,1)},
 aMz(d){var x,w,v,u,t,s,r=this,q=null,p=r.c
 p.toString
 x=d.e
 w=D.As(x)
 v=y.p
-x=A.a([B.bI,new A.dZ(A.a([new A.Y("Warehouse",d.d,!1),new A.Y("Received date",D.As(x),!1),new A.Y("Source",d.gFk(),!1),new A.Y("Status",L.dk(r.a9T(d.ay)),!1),new A.Y("Challan / reference no.",d.Q,!1),new A.Y("Vehicle no.",d.z,!1),new A.Y("Delivered by",D.aqT(d.x,d.y),!1),new A.Y("Received by",D.aqT(d.as,d.at),!1),new A.Y("Entered by",d.ch,!1),new A.Y("Entered on",D.cf7(d.CW),!1),new A.Y("Note",d.ax,!0)],y.n),2,q),I.xa,new D.II(d.dx,!0,"Cost price",q)],v)
+x=A.a([B.bI,new A.dZ(A.a([new A.Y("Warehouse",d.d,!1),new A.Y("Received date",D.As(x),!1),new A.Y("Source",d.gFk(),!1),new A.Y("Status",L.dk(r.a9T(d.ay)),!1),new A.Y("Challan / reference no.",d.Q,!1),new A.Y("Vehicle no.",d.z,!1),new A.Y("Delivered by",D.aqT(d.x,d.y),!1),new A.Y("Received by",D.aqT(d.as,d.at),!1),new A.Y("Entered by",d.ch,!1),new A.Y("Entered on",D.cf4(d.CW),!1),new A.Y("Note",d.ax,!0)],y.n),2,q),I.xa,new D.II(d.dx,!0,"Cost price",q)],v)
 u=d.f==="transfer"
 if(u){t=d.w
 B.e.u(x,A.a([B.aT,new D.za("This entry was created by receiving "+(t.length===0?"a transfer":t)+". Its items and quantities are fixed; only who delivered, who received and the note can be edited, and it can't be deleted.",q)],v))}x=A.I(x,B.ai,q,B.o,B.u)
 t=$.d
-s=A.N(q,!1,q,q,q,A.bz("download",t?B.v:B.r,14),q,"Print challan",new C.bAT(r,d),B.C,B.aa)
-v=A.a([s,A.N(q,!1,q,q,q,A.bz("edit",t?B.v:B.r,14),q,"Edit",new C.bAU(r,d),B.C,B.aa)],v)
-if(!u)v.push(A.N(q,!1,q,q,q,Q.dH,q,"Delete",new C.bAV(r,d),B.C,B.bZ))
+s=A.N(q,!1,q,q,q,A.bz("download",t?B.v:B.r,14),q,"Print challan",new C.bAS(r,d),B.C,B.aa)
+v=A.a([s,A.N(q,!1,q,q,q,A.bz("edit",t?B.v:B.r,14),q,"Edit",new C.bAT(r,d),B.C,B.aa)],v)
+if(!u)v.push(A.N(q,!1,q,q,q,Q.dH,q,"Delete",new C.bAU(r,d),B.C,B.bZ))
 R.lt(p,x,v,"Stock in \xb7 "+w,d.b,y.z)},
 a9U(d){var x,w=null,v={}
 v.a=!1
 x=this.c
 x.toString
-A.bt(x,A.e("This takes the "+D.k1(d.cy)+" units of this entry out of "+d.d+" again. If some of them have already been sent out or sold, the delete is refused. This can't be undone.",w,w,w,w,w,A.k(w,w,1.45,w,14,B.n),w,w),A.a([A.N(w,!1,w,w,w,w,w,"Cancel",new C.bAR(this),B.C,B.al),A.N(w,!1,w,w,w,Q.dH,w,"Delete",new C.bAS(v,this,d),B.C,B.bZ)],y.p),"Delete stock in "+d.b+"?",B.bK,y.z)},
+A.bt(x,A.e("This takes the "+D.k1(d.cy)+" units of this entry out of "+d.d+" again. If some of them have already been sent out or sold, the delete is refused. This can't be undone.",w,w,w,w,w,A.k(w,w,1.45,w,14,B.n),w,w),A.a([A.N(w,!1,w,w,w,w,w,"Cancel",new C.bAQ(this),B.C,B.al),A.N(w,!1,w,w,w,Q.dH,w,"Delete",new C.bAR(v,this,d),B.C,B.bZ)],y.p),"Delete stock in "+d.b+"?",B.bK,y.z)},
 aGP(d){var x,w,v=null,u={},t=$.aq(),s=new A.a5(B.ae,t),r=new A.a5(B.ae,t),q=new A.a5(B.ae,t),p=new A.d6(v,t)
 u.a=!1
 t=this.c
 t.toString
 x=d.r
 w=y.p
-A.bt(t,A.I(A.a([new D.za("Receiving adds these items to "+x+" and marks the transfer as received.",v),B.aT,new A.dZ(A.a([new A.Y("From",d.e,!1),new A.Y("To",x,!1),new A.Y("Sent on",D.As(d.c),!1),new A.Y("Delivered by",D.aqT(d.x,d.y),!1),new A.Y("Vehicle no.",d.z,!1),new A.Y("Total quantity",D.k1(d.CW)+" units",!1)],y.n),2,v),I.xa,new D.II(d.cy,!0,"Cost price",v),E.bb0,new A.f8(A.a([A.au(s,!0,p,v,"e.g. Divya Rao",v,v,v,"Received by (name)",!1,v,1,!1,v,v),A.au(r,!0,v,v,"e.g. 9848012345",v,v,B.da,"Received by phone number",!1,v,1,!1,v,v),new M.hg(A.au(q,!0,v,v,"e.g. 2 crates damaged",v,v,v,"Note (optional)",!1,v,3,!1,v,v),v)],w),B.aC,v)],w),B.ai,v,B.o,B.u),A.a([A.N(v,!1,v,v,v,v,v,"Cancel",new C.bB9(this),B.C,B.al),A.N(v,!1,v,v,v,B.bh,v,"Receive stock",new C.bBa(u,this,p,s,d,r,q),B.C,B.a8)],w),"Receive "+d.b,B.aC,y.z)},
+A.bt(t,A.I(A.a([new D.za("Receiving adds these items to "+x+" and marks the transfer as received.",v),B.aT,new A.dZ(A.a([new A.Y("From",d.e,!1),new A.Y("To",x,!1),new A.Y("Sent on",D.As(d.c),!1),new A.Y("Delivered by",D.aqT(d.x,d.y),!1),new A.Y("Vehicle no.",d.z,!1),new A.Y("Total quantity",D.k1(d.CW)+" units",!1)],y.n),2,v),I.xa,new D.II(d.cy,!0,"Cost price",v),E.bb0,new A.f8(A.a([A.au(s,!0,p,v,"e.g. Divya Rao",v,v,v,"Received by (name)",!1,v,1,!1,v,v),A.au(r,!0,v,v,"e.g. 9848012345",v,v,B.da,"Received by phone number",!1,v,1,!1,v,v),new M.hg(A.au(q,!0,v,v,"e.g. 2 crates damaged",v,v,v,"Note (optional)",!1,v,3,!1,v,v),v)],w),B.aC,v)],w),B.ai,v,B.o,B.u),A.a([A.N(v,!1,v,v,v,v,v,"Cancel",new C.bB8(this),B.C,B.al),A.N(v,!1,v,v,v,B.bh,v,"Receive stock",new C.bB9(u,this,p,s,d,r,q),B.C,B.a8)],w),"Receive "+d.b,B.aC,y.z)},
 SO(a4){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=null,a0={},a1=a4==null,a2=a1?d:a4.f==="transfer",a3=a2===!0
 a0.a=null
 x=a1?d:a4.c
@@ -285,7 +285,7 @@ if(x==null)x=e.Q
 for(a2=J.a0(e.y);a2.n();){w=a2.gB(a2)
 if(w.a===x)a0.a=w}if(a0.a==null&&J.T(e.y)===1)a0.a=J.fs(e.y)
 v=a1?d:a4.e
-a0.b=v==null?D.cfa():v
+a0.b=v==null?D.cf7():v
 a0.c=(a1?d:a4.f)==="other"?"Other":"Production"
 a2=a1?d:a4.Q
 if(a2==null)a2=""
@@ -320,141 +320,141 @@ if(j>0)g=j===B.q.e8(j)?B.t.j(B.q.aO(j)):B.q.a4(j,2)
 else g=""
 if(i>0)f=i===B.q.e8(i)?B.t.j(B.q.aO(i)):B.q.a4(i,2)
 else f=""
-a2.push(D.aSb(f,new D.ik(k.a,k.b,k.c,k.d,j,i,d),g,h))}else a2.push(D.aSb("",d,"",""))
+a2.push(D.aSa(f,new D.ik(k.a,k.b,k.c,k.d,j,i,d),g,h))}else a2.push(D.aSa("",d,"",""))
 a0.d=!1
 w=e.c
 w.toString
 m=a1?"Add stock in":"Edit "+a4.b
-j=A.N(d,!1,d,d,d,d,d,"Cancel",new C.bB6(e),B.C,B.al)
+j=A.N(d,!1,d,d,d,d,d,"Cancel",new C.bB5(e),B.C,B.al)
 i=a1?"Save stock in":"Save changes"
-A.bt(w,new A.dI(new C.bB7(a0,e,a3,a4,u,t,a2,s,r,n,q,p,o),d),A.a([j,A.N(d,!1,d,d,d,B.bh,d,i,new C.bB8(a0,e,n,a3,a4,a2,q,a1,s,r,t,u,p,o),B.C,B.a8)],y.p),m,B.bF,y.z)}}
+A.bt(w,new A.dI(new C.bB6(a0,e,a3,a4,u,t,a2,s,r,n,q,p,o),d),A.a([j,A.N(d,!1,d,d,d,B.bh,d,i,new C.bB7(a0,e,n,a3,a4,a2,q,a1,s,r,t,u,p,o),B.C,B.a8)],y.p),m,B.bF,y.z)}}
 var z=a.updateTypes(["f(hl)","aL(hl)","c(c)","aj<i<ik>>(c)","~(hl)","i<c>(hl)","c(tc)","x(hl,c)","bB(hl)","eG(hl,v)","c(ik)"])
-C.bBy.prototype={
+C.bBx.prototype={
 $1(d){return this.a.By(!0)},
 $S:6}
-C.bBc.prototype={
+C.bBb.prototype={
 $0(){var x=this.a,w=this.b,v=J.X(w)
 x.w=y.f.a(v.h(w,0))
 x.z=y.L.a(v.h(w,1))
 x.x=y.r.a(v.h(w,2))
 if(v.gv(w)>3)x.y=y.T.a(v.h(w,3))},
 $S:0}
-C.bBd.prototype={
+C.bBc.prototype={
 $0(){return this.a.as=!1},
 $S:0}
-C.bBw.prototype={
+C.bBv.prototype={
 $1(d){var x=this.a
-x.t(new C.bBv(x,d))
+x.t(new C.bBu(x,d))
 x.I7()},
 $S:1}
-C.bBv.prototype={
+C.bBu.prototype={
 $0(){var x=this.a
 x.Q=this.b
 x.as=!0},
 $S:0}
-C.bBx.prototype={
+C.bBw.prototype={
 $0(){return this.a.SO(null)},
 $S:0}
-C.bBb.prototype={
+C.bBa.prototype={
 $0(){return this.a.aGP(this.b)},
 $S:0}
-C.bBm.prototype={
+C.bBl.prototype={
 $1(d){var x=A.a([d.b,d.d,d.gFk(),d.Q,d.as,d.x],y.s),w=d.dx
-B.e.u(x,new A.aw(w,new C.bBe(),A.al(w).i("aw<1,c>")))
+B.e.u(x,new A.aw(w,new C.bBd(),A.al(w).i("aw<1,c>")))
 return x},
 $S:z+5}
-C.bBe.prototype={
+C.bBd.prototype={
 $1(d){return d.c},
 $S:z+6}
-C.bBh.prototype={
+C.bBg.prototype={
 $2(d,e){return d.f===e.toLowerCase()},
 $S:z+7}
-C.bBi.prototype={
+C.bBh.prototype={
 $1(d){var x=null
 return D.nk(d.b,A.k(x,x,x,x,11.8,B.H))},
 $S:z+0}
-C.bBj.prototype={
+C.bBi.prototype={
 $1(d){var x=D.As(d.e)
 return D.nk(x,A.k($.d?B.v:B.r,null,null,null,13.5,B.n))},
 $S:z+0}
-C.bBn.prototype={
+C.bBm.prototype={
 $1(d){return D.nk(d.d,A.k($.d?B.v:B.r,null,null,null,13.5,B.n))},
 $S:z+0}
-C.bBo.prototype={
+C.bBn.prototype={
 $1(d){var x=d.gFk()
 return D.nk(x,A.k($.d?B.v:B.r,null,null,null,13.5,B.n))},
 $S:z+0}
-C.bBp.prototype={
+C.bBo.prototype={
 $1(d){var x=D.aqS(d.dx)
 return D.nk(x,A.k($.d?B.v:B.r,null,null,null,13.5,B.n))},
 $S:z+0}
-C.bBr.prototype={
+C.bBq.prototype={
 $1(d){return d.cy},
 $S:z+1}
-C.bBq.prototype={
+C.bBp.prototype={
 $1(d){var x=D.k1(d.cy)
 return D.nk(x,A.k($.d?B.v:B.r,null,null,null,13.5,B.n))},
 $S:z+0}
-C.bBt.prototype={
+C.bBs.prototype={
 $1(d){return d.db},
 $S:z+1}
-C.bBs.prototype={
+C.bBr.prototype={
 $1(d){var x=null
 return D.nk(A.E(d.db),A.k(x,x,x,x,11.8,B.H))},
 $S:z+0}
-C.bBu.prototype={
+C.bBt.prototype={
 $1(d){return D.nk(d.as,A.k($.d?B.v:B.r,null,null,null,13.5,B.n))},
 $S:z+0}
-C.bBk.prototype={
+C.bBj.prototype={
 $1(d){return L.dk(this.a.a9T(d.ay))},
 $S:z+8}
-C.bBl.prototype={
-$2(d,e){var x=null,w=this.a,v=y.p,u=A.a([new N.d1("edit",new C.bBf(w,d),x,x)],v)
-if(d.f!=="transfer")B.e.u(u,A.a([B.cK,new N.d1("trash",new C.bBg(w,d),x,x)],v))
+C.bBk.prototype={
+$2(d,e){var x=null,w=this.a,v=y.p,u=A.a([new N.d1("edit",new C.bBe(w,d),x,x)],v)
+if(d.f!=="transfer")B.e.u(u,A.a([B.cK,new N.d1("trash",new C.bBf(w,d),x,x)],v))
 return A.V(u,B.B,B.o,B.L)},
 $S:z+9}
-C.bBf.prototype={
+C.bBe.prototype={
 $0(){return this.a.SO(this.b)},
 $S:0}
-C.bBg.prototype={
+C.bBf.prototype={
 $0(){return this.a.a9U(this.b)},
 $S:0}
-C.bAT.prototype={
+C.bAS.prototype={
 $0(){var x,w,v,u,t,s,r,q=this.a,p=q.c
 p.toString
 x=q.gO().m(0,$.lu(),y.y)
 w=this.b
 q=q.y
 v=w.f==="transfer"
-u=v&&w.w.length!==0?G.cc1(w.w):w.b
+u=v&&w.w.length!==0?G.cc_(w.w):w.b
 if(v&&w.w.length!==0)t=w.w
 else{t=w.Q
 if(t.length===0)t=w.b}v=v?"Transfer No.":"Challan / ref. no."
 s=w.ay
 s=s.length===0?"Received":s[0].toUpperCase()+B.h.bh(s,1)
-x=G.cdO(x)
+x=G.cdM(x)
 r=w.gFk()
-q=G.c2K(w.c,w.d,q)
-return G.aqO(p,G.awr(u,x,"",w.e,w.x,w.y,new G.lA(r,B.cq,"",""),G.ccK(w.dx),v,!1,!0,s,"",q,t,w.z,"Vehicle"))},
+q=G.c2J(w.c,w.d,q)
+return G.aqO(p,G.awr(u,x,"",w.e,w.x,w.y,new G.lA(r,B.cq,"",""),G.ccI(w.dx),v,!1,!0,s,"",q,t,w.z,"Vehicle"))},
 $S:0}
-C.bAU.prototype={
+C.bAT.prototype={
 $0(){var x=this.a,w=x.c
 w.toString
 A.ao(w,!0).S()
 x.SO(this.b)},
 $S:0}
-C.bAV.prototype={
+C.bAU.prototype={
 $0(){var x=this.a,w=x.c
 w.toString
 A.ao(w,!0).S()
 x.a9U(this.b)},
 $S:0}
-C.bAR.prototype={
+C.bAQ.prototype={
 $0(){var x=this.a.c
 x.toString
 return A.ao(x,!0).S()},
 $S:0}
-C.bAS.prototype={
+C.bAR.prototype={
 $0(){var x=0,w=A.t(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m,l
 var $async$$0=A.o(function(d,e){if(d===1){t.push(e)
 x=u}for(;;)switch(x){case 0:m=s.a
@@ -491,12 +491,12 @@ case 6:case 1:return A.q(v,w)
 case 2:return A.p(t.at(-1),w)}})
 return A.r($async$$0,w)},
 $S:2}
-C.bB9.prototype={
+C.bB8.prototype={
 $0(){var x=this.a.c
 x.toString
 return A.ao(x,!0).S()},
 $S:0}
-C.bBa.prototype={
+C.bB9.prototype={
 $0(){var x=0,w=A.t(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k,j,i
 var $async$$0=A.o(function(d,e){if(d===1){t.push(e)
 x=u}for(;;)switch(x){case 0:j=s.a
@@ -542,70 +542,70 @@ case 6:case 1:return A.q(v,w)
 case 2:return A.p(t.at(-1),w)}})
 return A.r($async$$0,w)},
 $S:2}
-C.bB7.prototype={
+C.bB6.prototype={
 $2(d,e){var x,w,v=this,u=null,t="Warehouse",s="Received date",r=y.p,q=A.a([],r)
 if(v.c){x=v.d
 w=x.w
 if(w.length===0)w="a transfer"
 B.e.u(q,A.a([new D.za("This entry came from receiving "+w+". Its warehouse, date and items are fixed. You can change who delivered it, who received it and the note.",u),B.aT,new A.dZ(A.a([new A.Y(t,x.d,!1),new A.Y(s,D.As(x.e),!1),new A.Y("Items",D.aqS(x.dx),!1),new A.Y("Total quantity",D.k1(x.cy)+" units",!1)],y.n),2,u)],r))}else{x=v.a
 w=v.b
-B.e.u(q,A.a([E.baX,new A.f8(A.a([new M.hg(V.k3("Search a warehouse by ID or name\u2026",new C.bB_(),new C.bB0(),t,u,new C.bB1(x,e),u,new C.bB2(w),"Type a warehouse ID, name or branch\u2026",x.a,y.h),u),new W.eU(x.b,s,new C.bB3(x,e),u),A0.cL(!0,u,E.aWJ,"Source",new C.bB4(x,e),x.c,y.N),A.au(v.e,!0,u,u,"e.g. CH-2041",u,u,u,"Challan / reference no. (optional)",!1,u,1,!1,u,u),A.au(v.f,!0,u,u,"e.g. AP 31 TC 4521",u,u,u,"Vehicle no. (optional)",!1,u,1,!1,u,u)],r),B.bF,u),I.SR,D.c9p(v.r,new C.bB5(),w.gaL4(),"Search an item by name or code\u2026",!0)],r))}q.push(new D.p5("Delivery and receipt",new A.ad(0,24,0,12),u))
+B.e.u(q,A.a([E.baX,new A.f8(A.a([new M.hg(V.k3("Search a warehouse by ID or name\u2026",new C.bAZ(),new C.bB_(),t,u,new C.bB0(x,e),u,new C.bB1(w),"Type a warehouse ID, name or branch\u2026",x.a,y.h),u),new W.eU(x.b,s,new C.bB2(x,e),u),A0.cL(!0,u,E.aWI,"Source",new C.bB3(x,e),x.c,y.N),A.au(v.e,!0,u,u,"e.g. CH-2041",u,u,u,"Challan / reference no. (optional)",!1,u,1,!1,u,u),A.au(v.f,!0,u,u,"e.g. AP 31 TC 4521",u,u,u,"Vehicle no. (optional)",!1,u,1,!1,u,u)],r),B.bF,u),I.SQ,D.c9o(v.r,new C.bB4(),w.gaL4(),"Search an item by name or code\u2026",!0)],r))}q.push(new D.p5("Delivery and receipt",new A.ad(0,24,0,12),u))
 q.push(new A.f8(A.a([A.au(v.w,!0,u,u,"e.g. Ramesh (driver)",u,u,u,"Delivered by (name)",!1,u,1,!1,u,u),A.au(v.x,!0,u,u,"e.g. 9876543210",u,u,B.da,"Delivery person number",!1,u,1,!1,u,u),A.au(v.z,!0,v.y,u,"e.g. Divya Rao",u,u,u,"Received by (name)",!1,u,1,!1,u,u),A.au(v.Q,!0,u,u,"e.g. 9848012345",u,u,B.da,"Received by phone number",!1,u,1,!1,u,u),new M.hg(A.au(v.as,!0,u,u,"e.g. 2 crates damaged on arrival",u,u,u,"Note (optional)",!1,u,3,!1,u,u),u)],r),B.bF,u))
 return A.I(q,B.ai,u,B.o,B.u)},
 $S:24}
-C.bB2.prototype={
+C.bB1.prototype={
 $1(d){return this.akj(d)},
 akj(d){var x=0,w=A.t(y.T),v,u=this,t,s,r
 var $async$$1=A.o(function(e,f){if(e===1)return A.p(f,w)
 for(;;)switch(x){case 0:s=B.h.F(d).toLowerCase()
 r=u.a.y
-if(!(s.length===0)){t=J.b8(r,new C.bAY(s))
+if(!(s.length===0)){t=J.b8(r,new C.bAX(s))
 r=A.U(t,t.$ti.i("F.E"))}v=J.r7(r,50).aF(0)
 x=1
 break
 case 1:return A.q(v,w)}})
 return A.r($async$$1,w)},
-$S:399}
-C.bAY.prototype={
+$S:398}
+C.bAX.prototype={
 $1(d){return B.h.q((d.c+" "+d.d+" "+d.e).toLowerCase(),this.a)},
 $S:134}
-C.bB_.prototype={
+C.bAZ.prototype={
 $1(d){return d.c+" \xb7 "+d.d},
 $S:97}
-C.bB0.prototype={
+C.bB_.prototype={
 $1(d){return d.e},
 $S:97}
-C.bB1.prototype={
-$1(d){return this.b.$1(new C.bAZ(this.a,d))},
+C.bB0.prototype={
+$1(d){return this.b.$1(new C.bAY(this.a,d))},
 $S:217}
-C.bAZ.prototype={
+C.bAY.prototype={
 $0(){return this.a.a=this.b},
 $S:0}
-C.bB3.prototype={
-$1(d){return this.b.$1(new C.bAX(this.a,d))},
+C.bB2.prototype={
+$1(d){return this.b.$1(new C.bAW(this.a,d))},
 $S:1}
-C.bAX.prototype={
+C.bAW.prototype={
 $0(){return this.a.b=this.b},
 $S:0}
-C.bB4.prototype={
-$1(d){return this.b.$1(new C.bAW(this.a,d))},
+C.bB3.prototype={
+$1(d){return this.b.$1(new C.bAV(this.a,d))},
 $S:4}
-C.bAW.prototype={
+C.bAV.prototype={
 $0(){var x=this.b
 if(x==null)x=this.a.c
 return this.a.c=x},
 $S:0}
-C.bB5.prototype={
+C.bB4.prototype={
 $1(d){var x=d.e
 x=x>0?" \xb7 MRP "+A.E(x):""
 return d.b+x},
 $S:z+10}
-C.bB6.prototype={
+C.bB5.prototype={
 $0(){var x=this.a.c
 x.toString
 return A.ao(x,!0).S()},
 $S:0}
-C.bB8.prototype={
+C.bB7.prototype={
 $0(){var x=0,w=A.t(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5
 var $async$$0=A.o(function(b6,b7){if(b6===1){t.push(b7)
 x=u}for(;;)A:switch(x){case 0:b4=s.a
@@ -731,17 +731,17 @@ x(w,"gaL4","HS",3)
 x(w,"gaMy","aMz",4)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(C.z9,A.dG)
 x(C.Zg,A.dD)
-w(A.bN,[C.bBy,C.bBw,C.bBm,C.bBe,C.bBi,C.bBj,C.bBn,C.bBo,C.bBp,C.bBr,C.bBq,C.bBt,C.bBs,C.bBu,C.bBk,C.bB2,C.bAY,C.bB_,C.bB0,C.bB1,C.bB3,C.bB4,C.bB5])
-w(A.cA,[C.bBc,C.bBd,C.bBv,C.bBx,C.bBb,C.bBf,C.bBg,C.bAT,C.bAU,C.bAV,C.bAR,C.bAS,C.bB9,C.bBa,C.bAZ,C.bAX,C.bAW,C.bB6,C.bB8])
-w(A.cU,[C.bBh,C.bBl,C.bB7])})()
+w(A.bN,[C.bBx,C.bBv,C.bBl,C.bBd,C.bBh,C.bBi,C.bBm,C.bBn,C.bBo,C.bBq,C.bBp,C.bBs,C.bBr,C.bBt,C.bBj,C.bB1,C.bAX,C.bAZ,C.bB_,C.bB0,C.bB2,C.bB3,C.bB4])
+w(A.cA,[C.bBb,C.bBc,C.bBu,C.bBw,C.bBa,C.bBe,C.bBf,C.bAS,C.bAT,C.bAU,C.bAQ,C.bAR,C.bB8,C.bB9,C.bAY,C.bAW,C.bAV,C.bB5,C.bB7])
+w(A.cU,[C.bBg,C.bBk,C.bB6])})()
 A.bJ(b.typeUniverse,JSON.parse('{"z9":{"R":[],"f":[]},"Zg":{"ah":["z9"]}}'))
 var y=(function rtii(){var x=A.H
 return{i:x("L<hl>"),a:x("bl<hl>"),y:x("kA"),d:x("l<L<hl>>"),v:x("l<bl<hl>>"),W:x("l<d6>"),D:x("l<aj<P>>"),n:x("l<Y>"),t:x("l<aA<c,@>>"),u:x("l<DO>"),m:x("l<ik>"),s:x("l<c>"),p:x("l<f>"),f:x("i<hl>"),r:x("i<fK>"),k:x("i<ik>"),T:x("i<eM>"),K:x("P"),e:x("hl"),L:x("IH"),N:x("c"),h:x("eM"),z:x("@"),S:x("bW?"),H:x("~")}})();(function constants(){var x=a.makeConstList
-E.a54=new A.ad(20,18,20,14)
-E.aWJ=x(["Production","Other"],y.s)
-E.aWK=x(["Production","Transfer","Other"],y.s)
-E.aZ_=x([],A.H("l<hl>"))
+E.a53=new A.ad(20,18,20,14)
+E.aWI=x(["Production","Other"],y.s)
+E.aWJ=x(["Production","Transfer","Other"],y.s)
+E.aYZ=x([],A.H("l<hl>"))
 E.baU=new G.IH(0,0,0,0)
 E.baX=new D.p5("Stock details",S.e0,null)
 E.bb0=new D.p5("Who is receiving it",I.nI,null)})()};
-(a=>{a["YUJNkjuRD8lEIx/BK6oKWMnLvEs="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["k/i32R8Yyl1QJ0Xyi5tj0Y89h8w="]=a.current})($__dart_deferred_initializers__);
