@@ -1,19 +1,13 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={
-bOt(d,e){var x=e.m(0,$.af(),y.d)
-if(J.LM(e.m(0,$.iP(),y.h),new B.bOu(x)))return!0
-A.K(d,"Open your counter from Cash Open / Close before billing",null)
-return!1},
-bOu:function bOu(d){this.a=d}},D
-J=c[1]
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A,B,C={
+bZ4(d,e){var x=e.m(0,$.f2(),y.a)
+if(x.b!=null||x.c)return!0
+A.J(d,"Add a customer before adding items to the bill",null)
+return!1}},D
 A=c[0]
-C=c[81]
-B=a.updateHolder(c[59],B)
-D=c[202]
+B=c[2]
+C=a.updateHolder(c[54],C)
+D=c[172]
 var z=a.updateTypes([])
-B.bOu.prototype={
-$1(d){return C.a08(d,this.a)&&d.ay==="Open"},
-$S:33};(function inheritance(){var x=a.inherit
-x(B.bOu,A.bO)})()
-var y={h:A.G("i<dA>"),d:A.G("bV?")};(function constants(){D.AH=new A.ae(0,0,0,2)})()};
-(a=>{a["SsXqtj7rH4JUGZafaDYk9vHCK1U="]=a.current})($__dart_deferred_initializers__);
+var y={a:A.G("lJ")};(function constants(){D.yh=new A.cM("cart",14,B.J,null)})()};
+(a=>{a["JltBRctUmQzCQuWQDWtf2RjkMjM="]=a.current})($__dart_deferred_initializers__);
